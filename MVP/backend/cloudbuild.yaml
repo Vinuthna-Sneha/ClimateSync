@@ -1,0 +1,15 @@
+steps:
+  - name: 'python:3.9-slim'
+    entrypoint: 'bash'
+    args:
+      - '-c'
+      - |
+        apt-get update && apt-get install -y build-essential libsqlite3-dev
+        pip install --upgrade pip
+        pip install -r requirements.txt
+  - name: 'gcr.io/cloud-builders/gcloud'
+    args: ['app', 'deploy', 'app.yaml', '--quiet']
+artifacts:
+  objects:
+    location: 'gs://staging.inspired-rock-450806-r5.appspot.com/'
+    paths: ['*.py', 'app.yaml', 'requirements.txt', '*.json', '*.csv']
