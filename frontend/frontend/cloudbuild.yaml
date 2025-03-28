@@ -1,9 +1,0 @@
-steps:
-  - name: 'gcr.io/cloud-builders/npm'
-    args: ['install']
-  - name: 'gcr.io/cloud-builders/npm'
-    args: ['run', 'build']
-artifacts:
-  objects:
-    location: 'gs://staging.inspired-rock-450806-r5.appspot.com/'
-    paths: ['dist/**/*']

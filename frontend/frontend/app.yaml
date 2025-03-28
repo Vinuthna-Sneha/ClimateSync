@@ -1,8 +1,0 @@
-runtime: nodejs18
-handlers:
-  - url: /(.*\.(js|css|png|jpg|svg|ico|json|woff|woff2|ttf|eot))
-    static_files: dist/\1
-    upload: dist/.*\.(js|css|png|jpg|svg|ico|json|woff|woff2|ttf|eot)
-  - url: /.*
-    static_files: dist/index.html
-    upload: dist/index.html

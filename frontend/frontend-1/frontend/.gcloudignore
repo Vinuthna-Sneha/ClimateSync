@@ -1,6 +1,0 @@
-# Ignore everything by default
-*
-
-# Include the dist folder and its contents
-!dist
-!dist/**
