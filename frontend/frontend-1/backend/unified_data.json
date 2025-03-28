@@ -1,0 +1,4665 @@
+[
+  {
+    "zone": 0,
+    "zone_name": "Santhosha Puram",
+    "location": {
+      "latitude": 18.68485315066851,
+      "longitude": 84.33951127112498
+    },
+    "land_cover": {
+      "bare": 0.2337594867982692,
+      "built": 0.2473329908841484,
+      "crops": 0.520967577174288,
+      "flooded_vegetation": 0.2620405062466958,
+      "grass": 0.2188060559364149,
+      "shrub_and_scrub": 0.4707149925916235,
+      "snow_and_ice": 0.2433615837005307,
+      "trees": 0.2303930619701398,
+      "water": 0.0748046204906313
+    },
+    "environmental_factors": {
+      "temperature": 0.5165955493140328,
+      "humidity": 0.3622334585138321,
+      "precipitation": 0.0,
+      "wind_speed": 0.4437869457071962,
+      "BCCMASS": 0.4404583598196048,
+      "CH4_column_volume_mixing_ratio_dry_air_bias_corrected": 0.7598809827565871,
+      "CO_column_number_density": 0.5904643982173231,
+      "DUCMASS": 0.4312258464362228,
+      "NO2_column_number_density": 0.1576075320392638,
+      "O3_column_number_density": 0.6949906475744076,
+      "SO2_column_number_density": 0.4488802381960496,
+      "absorbing_aerosol_index": 0.3304117821353594,
+      "tropospheric_HCHO_column_number_density": 0.3156532786831991
+    },
+    "risk_metrics": {
+      "Health_Risk_Index": 0.3827244590393738,
+      "Urban_Heat_Index": 2.2471299433390803,
+      "Real_Estate_Risk": 0.2629344356552765,
+      "Green_Score": 0.2749813462843191,
+      "H(Hazard)": 0.3098184103627209,
+      "E(Exposure)": 0.2803983773942479,
+      "V(Vulnerability)": 0.852317519120097,
+      "CRI": 0.0740430214838116,
+      "Risk_Category": "Moderate"
+    },
+    "trends": [
+      {
+        "trend_description": "Hazard_Score",
+        "influencing_feature": "CH4_column_volume_mixing_ratio_dry_air_bias_corrected",
+        "impact": 0.013,
+        "effect": "increases"
+      },
+      {
+        "trend_description": "Exposure_Score",
+        "influencing_feature": "crops",
+        "impact": 0.086,
+        "effect": "increases"
+      },
+      {
+        "trend_description": "Vulnerability_Index",
+        "influencing_feature": "built",
+        "impact": 0.246,
+        "effect": "increases"
+      },
+      {
+        "trend_description": "Health_Risk_Index",
+        "influencing_feature": "CH4_column_volume_mixing_ratio_dry_air_bias_corrected",
+        "impact": 0.059,
+        "effect": "increases"
+      },
+      {
+        "trend_description": "Urban_Heat_Index",
+        "influencing_feature": "built",
+        "impact": 0.618,
+        "effect": "increases"
+      },
+      {
+        "trend_description": "Real_Estate_Risk",
+        "influencing_feature": "flooded_vegetation",
+        "impact": 0.057,
+        "effect": "increases"
+      },
+      {
+        "trend_description": "Green_Score",
+        "influencing_feature": "O3_column_number_density",
+        "impact": 0.099,
+        "effect": "decreases"
+      },
+      {
+        "trend_description": "Climate_Risk_Index",
+        "influencing_feature": "built",
+        "impact": 0.027,
+        "effect": "increases"
+      }
+    ],
+    "socioeconomic_status": {
+      "schools": 20,
+      "hospitals": 10,
+      "banks": 2,
+      "grocery_stores": 20
+    },
+    "industries_present": [
+      {
+        "name": "Nandigam",
+        "address": "Nandigam",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "name": "Shiva Rama Krishna College of Engineering & Technology",
+        "address": "Technovalley, Turakalakota, Nandigam (M), Srikakulam (D), Andhra Pradesh, India, Devupuram",
+        "types": [
+          "university",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Post office , Haridasupuram",
+        "address": "M9H4+M39, Haridasupuram",
+        "types": [
+          "post_office",
+          "finance",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "R R Diagnostic Centre",
+        "address": "M8MC+2GQ, Srikakulam - Ichchapuram Highway, Jadupudi",
+        "types": [
+          "health",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "SBI ATM",
+        "address": "M97F+74H, Pundi",
+        "types": [
+          "atm",
+          "finance",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Post office",
+        "address": "M989+R47, Pundi",
+        "types": [
+          "post_office",
+          "finance",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Asian Paints",
+        "address": "Bustand road, Pundi",
+        "types": [
+          "electronics_store",
+          "home_goods_store",
+          "store",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "meeseva",
+        "address": "M833+FX9, Nandigam, Nandigam/\u0c28\u0c02\u0c26\u0c3f\u0c17\u0c02, Srikakulam, Nandigam",
+        "types": [
+          "local_government_office",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "MeeSeva Center",
+        "address": "J9H6+W37, Pathatekkali",
+        "types": [
+          "local_government_office",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Dattatreya Ashramam",
+        "address": "P9CV+HJM, Bendi gate, Venkatapuram",
+        "types": [
+          "hindu_temple",
+          "place_of_worship",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Post Office",
+        "address": "PC54+W72, Bendi",
+        "types": [
+          "post_office",
+          "finance",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "MeeSeva Center",
+        "address": "J9QW+JV7, Amalapadu",
+        "types": [
+          "local_government_office",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "MeeSeva Center",
+        "address": "P9WM+5QR, Gandhi Bazar, Brahmanatarla",
+        "types": [
+          "local_government_office",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "SBI ATM",
+        "address": "P9WM+FXV, Brahmanatarla",
+        "types": [
+          "atm",
+          "finance",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Pandu Ranga Swamy Temple",
+        "address": "JCQ4+8GH, Beach Road, kambalaraydu peta",
+        "types": [
+          "hindu_temple",
+          "place_of_worship",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "India Post",
+        "address": "PC6H+W64, Nagarampalli",
+        "types": [
+          "post_office",
+          "finance",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Nearalla Polamma Ammavari temple",
+        "address": "M8PV+X9G, Unnamed Road, Borubhadra",
+        "types": [
+          "hindu_temple",
+          "place_of_worship",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Ramalayam, venkannapeta",
+        "address": "M8QR+RM4, venkannapeta village, borubhadra post,nandigam mandal",
+        "types": [
+          "hindu_temple",
+          "place_of_worship",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "RAMALAYAM , Borubhadra",
+        "address": "M8QW+8H9, Borubhadra",
+        "types": [
+          "hindu_temple",
+          "place_of_worship",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Pundi",
+        "address": "Pundi",
+        "types": [
+          "locality",
+          "political"
+        ]
+      }
+    ],
+    "research_findings": {
+      "water management": {
+        "research_papers": [],
+        "surveys_and_reports": [
+          "https://www.nass.usda.gov/Surveys/Guide_to_NASS_Surveys/Farm_and_Ranch_Irrigation/index.php",
+          "https://wmo.int/publication-series/state-of-global-water-resources-2023",
+          "https://www.nass.usda.gov/Publications/AgCensus/2017/Online_Resources/Farm_and_Ranch_Irrigation_Survey/index.php",
+          "https://www.sfwmd.gov/our-work/water-supply",
+          "https://www.nass.usda.gov/Publications/AgCensus/2022/Online_Resources/Farm_and_Ranch_Irrigation_Survey/index.php"
+        ]
+      },
+      "soil status": {
+        "research_papers": [],
+        "surveys_and_reports": [
+          "https://websoilsurvey.nrcs.usda.gov/",
+          "https://www.ncagr.gov/divisions/agronomic-services/find-your-report",
+          "https://openknowledge.fao.org/server/api/core/bitstreams/6ec24d75-19bd-4f1f-b1c5-5becf50d0871/content",
+          "https://agdatacommons.nal.usda.gov/articles/dataset/A_Survey_to_Evaluate_the_Current_Status_of_Land_Grant_University_and_State_Department_of_Agriculture_Soil_Fertility_Recommendations_and_Analytical_Methods/24680958",
+          "https://openknowledge.fao.org/server/api/core/bitstreams/81533344-7e7c-473d-96d7-e18de59d6548/content"
+        ]
+      },
+      "population": {
+        "research_papers": [],
+        "surveys_and_reports": [
+          "https://www.census.gov/programs-surveys/cps.html",
+          "https://www.psacard.com/pop",
+          "https://www.census.gov/programs-surveys/cps/data.html",
+          "https://www.bls.gov/cps/",
+          "https://population.un.org/wpp/"
+        ]
+      }
+    },
+    "web_search": []
+  },
+  {
+    "zone": 1,
+    "zone_name": "Chidimi",
+    "location": {
+      "latitude": 18.6530286660854,
+      "longitude": 83.620190049562
+    },
+    "land_cover": {
+      "bare": 0.2307524910782873,
+      "built": 0.2348772307517615,
+      "crops": 0.4104440212119385,
+      "flooded_vegetation": 0.1907342921848779,
+      "grass": 0.3839499976675454,
+      "shrub_and_scrub": 0.422638791894945,
+      "snow_and_ice": 0.2749098917018034,
+      "trees": 0.4012800116107649,
+      "water": 0.016467766384641
+    },
+    "environmental_factors": {
+      "temperature": 0.6987927197093242,
+      "humidity": 0.7183408906328842,
+      "precipitation": 0.0,
+      "wind_speed": 0.5848595813886653,
+      "BCCMASS": 0.0,
+      "CH4_column_volume_mixing_ratio_dry_air_bias_corrected": 0.7070518840858255,
+      "CO_column_number_density": 0.5827435704558288,
+      "DUCMASS": 0.0,
+      "NO2_column_number_density": 0.4717498273731455,
+      "O3_column_number_density": 0.3111726877700821,
+      "SO2_column_number_density": 0.4666072973615242,
+      "absorbing_aerosol_index": 0.3829774916726641,
+      "tropospheric_HCHO_column_number_density": 0.5597202154004074
+    },
+    "risk_metrics": {
+      "Health_Risk_Index": 0.508390246142147,
+      "Urban_Heat_Index": 3.0468350127531862,
+      "Real_Estate_Risk": 0.4228325490453823,
+      "Green_Score": 0.400352763484635,
+      "H(Hazard)": 0.4032052305250632,
+      "E(Exposure)": 0.2639649725582904,
+      "V(Vulnerability)": 1.1619378357434276,
+      "CRI": 0.1236674346741376,
+      "Risk_Category": "Very High"
+    },
+    "trends": [
+      {
+        "trend_description": "Hazard_Score",
+        "influencing_feature": "absorbing_aerosol_index",
+        "impact": 0.013,
+        "effect": "increases"
+      },
+      {
+        "trend_description": "Exposure_Score",
+        "influencing_feature": "built",
+        "impact": 0.053,
+        "effect": "increases"
+      },
+      {
+        "trend_description": "Vulnerability_Index",
+        "influencing_feature": "grass",
+        "impact": 0.069,
+        "effect": "decreases"
+      },
+      {
+        "trend_description": "Health_Risk_Index",
+        "influencing_feature": "tropospheric_HCHO_column_number_density",
+        "impact": 0.034,
+        "effect": "increases"
+      },
+      {
+        "trend_description": "Urban_Heat_Index",
+        "influencing_feature": "built",
+        "impact": 0.14,
+        "effect": "increases"
+      },
+      {
+        "trend_description": "Real_Estate_Risk",
+        "influencing_feature": "NO2_column_number_density",
+        "impact": 0.054,
+        "effect": "increases"
+      },
+      {
+        "trend_description": "Green_Score",
+        "influencing_feature": "trees",
+        "impact": 0.051,
+        "effect": "increases"
+      },
+      {
+        "trend_description": "Climate_Risk_Index",
+        "influencing_feature": "built",
+        "impact": 0.031,
+        "effect": "increases"
+      }
+    ],
+    "socioeconomic_status": {
+      "schools": 20,
+      "hospitals": 9,
+      "banks": 6,
+      "grocery_stores": 20
+    },
+    "industries_present": [
+      {
+        "name": "Balijipeta",
+        "address": "Balijipeta",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "name": "Police Station",
+        "address": "JJ85+J5C, Main Street, Vangara",
+        "types": [
+          "police",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Venkata Manikanta Super Cool Drinks",
+        "address": "MJP4+JP6, State Highway 37, Veeraghattam",
+        "types": [
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "State Bank of India ATM",
+        "address": "MJP4+VX2, Veeraghattam",
+        "types": [
+          "atm",
+          "finance",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Maharshi High School",
+        "address": "MJQ6+628, State Highway 37, Veeraghattam",
+        "types": [
+          "school",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "KRANTI ROAD TRANSPORT PVT. LTD",
+        "address": "MJQ5+89V, Veeraghattam",
+        "types": [
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Sri Venkatsai panshop",
+        "address": "Mohanarao Late, 7-78, near Krishna Theater, S/o, Barnala Street, Veeraghattam",
+        "types": [
+          "store",
+          "food",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Meeseva",
+        "address": "JJ84+VPV, Main Street, Vangara",
+        "types": [
+          "local_government_office",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "APSWR Girls School and Junior College",
+        "address": "JJ78+F73, Vangara",
+        "types": [
+          "school",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Vangara 33/11KV Sub station",
+        "address": "JJ78+9CQ, Rajam Road, Vangara",
+        "types": [
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Shiridi Sai Temple",
+        "address": "MMF5+5WQ, Hussain Puram",
+        "types": [
+          "hindu_temple",
+          "place_of_worship",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "State Bank of India ATM",
+        "address": "JJ7Q+VVH, Bitivada",
+        "types": [
+          "atm",
+          "finance",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Ramalayam temple",
+        "address": "MMF6+443, Hussain Puram",
+        "types": [
+          "hindu_temple",
+          "place_of_worship",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Hussainpuram village",
+        "address": "Hussain Puram",
+        "types": [
+          "church",
+          "place_of_worship",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Vishwa Vani Church",
+        "address": "PJ2F+VC5, Atchapuvalasa",
+        "types": [
+          "church",
+          "place_of_worship",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Sri Sairam temple",
+        "address": "HJP9+48C, SANJIVINI HILLS, MADURANAGAR",
+        "types": [
+          "hindu_temple",
+          "place_of_worship",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "madduvalasa bus stop",
+        "address": "HJMG+525, Rajam Road, Madduvalasa",
+        "types": [
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Post Office",
+        "address": "HJHF+RVF, MADDURANAGAR, Madduvalasa",
+        "types": [
+          "post_office",
+          "finance",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Ramalayam",
+        "address": "MP74+WH7, Dolamada",
+        "types": [
+          "hindu_temple",
+          "place_of_worship",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Veeraghattam",
+        "address": "Veeraghattam",
+        "types": [
+          "locality",
+          "political"
+        ]
+      }
+    ],
+    "research_findings": {
+      "water management": {
+        "research_papers": [],
+        "surveys_and_reports": [
+          "https://www.nass.usda.gov/Surveys/Guide_to_NASS_Surveys/Farm_and_Ranch_Irrigation/index.php",
+          "https://wmo.int/publication-series/state-of-global-water-resources-2023",
+          "https://www.nass.usda.gov/Publications/AgCensus/2017/Online_Resources/Farm_and_Ranch_Irrigation_Survey/index.php",
+          "https://www.sfwmd.gov/our-work/water-supply",
+          "https://www.nass.usda.gov/Publications/AgCensus/2022/Online_Resources/Farm_and_Ranch_Irrigation_Survey/index.php"
+        ]
+      },
+      "soil status": {
+        "research_papers": [],
+        "surveys_and_reports": [
+          "https://websoilsurvey.nrcs.usda.gov/",
+          "https://www.ncagr.gov/divisions/agronomic-services/find-your-report",
+          "https://openknowledge.fao.org/server/api/core/bitstreams/6ec24d75-19bd-4f1f-b1c5-5becf50d0871/content",
+          "https://agdatacommons.nal.usda.gov/articles/dataset/A_Survey_to_Evaluate_the_Current_Status_of_Land_Grant_University_and_State_Department_of_Agriculture_Soil_Fertility_Recommendations_and_Analytical_Methods/24680958",
+          "https://openknowledge.fao.org/server/api/core/bitstreams/81533344-7e7c-473d-96d7-e18de59d6548/content"
+        ]
+      },
+      "population": {
+        "research_papers": [],
+        "surveys_and_reports": [
+          "https://www.census.gov/programs-surveys/cps.html",
+          "https://www.psacard.com/pop",
+          "https://www.census.gov/programs-surveys/cps/data.html",
+          "https://www.bls.gov/cps/",
+          "https://population.un.org/wpp/"
+        ]
+      }
+    },
+    "web_search": []
+  },
+  {
+    "zone": 2,
+    "zone_name": "Srikakulam",
+    "location": {
+      "latitude": 18.2880920351022,
+      "longitude": 83.861722595397
+    },
+    "land_cover": {
+      "bare": 0.2010797277678427,
+      "built": 0.4140686504419926,
+      "crops": 0.2529722457606571,
+      "flooded_vegetation": 0.2664220711135941,
+      "grass": 0.2652713306231476,
+      "shrub_and_scrub": 0.3433671453378958,
+      "snow_and_ice": 0.3816446285563999,
+      "trees": 0.3635121996631005,
+      "water": 0.0837880989448186
+    },
+    "environmental_factors": {
+      "temperature": 0.8227471689138667,
+      "humidity": 0.7689132446856848,
+      "precipitation": 0.0,
+      "wind_speed": 0.5362750798057818,
+      "BCCMASS": 0.4551891355245402,
+      "CH4_column_volume_mixing_ratio_dry_air_bias_corrected": 0.7575830445907674,
+      "CO_column_number_density": 0.7101706128287189,
+      "DUCMASS": 0.2894817844636503,
+      "NO2_column_number_density": 0.4276231252117479,
+      "O3_column_number_density": 0.3577763221724569,
+      "SO2_column_number_density": 0.2806959028799214,
+      "absorbing_aerosol_index": 0.449069517343027,
+      "tropospheric_HCHO_column_number_density": 0.3090749643890152
+    },
+    "risk_metrics": {
+      "Health_Risk_Index": 0.4516815816011318,
+      "Urban_Heat_Index": 3.3412432249832222,
+      "Real_Estate_Risk": 0.3808340635582489,
+      "Green_Score": 0.3300109280860737,
+      "H(Hazard)": 0.4438930701039217,
+      "E(Exposure)": 0.301167884743289,
+      "V(Vulnerability)": 1.226211320038462,
+      "CRI": 0.163927699733715,
+      "Risk_Category": "Very High"
+    },
+    "trends": [
+      {
+        "trend_description": "Hazard_Score",
+        "influencing_feature": "temperature",
+        "impact": 0.02,
+        "effect": "increases"
+      },
+      {
+        "trend_description": "Exposure_Score",
+        "influencing_feature": "built",
+        "impact": 0.048,
+        "effect": "increases"
+      },
+      {
+        "trend_description": "Vulnerability_Index",
+        "influencing_feature": "CH4_column_volume_mixing_ratio_dry_air_bias_corrected",
+        "impact": 0.146,
+        "effect": "increases"
+      },
+      {
+        "trend_description": "Health_Risk_Index",
+        "influencing_feature": "CH4_column_volume_mixing_ratio_dry_air_bias_corrected",
+        "impact": 0.028,
+        "effect": "increases"
+      },
+      {
+        "trend_description": "Urban_Heat_Index",
+        "influencing_feature": "SO2_column_number_density",
+        "impact": 0.412,
+        "effect": "increases"
+      },
+      {
+        "trend_description": "Real_Estate_Risk",
+        "influencing_feature": "CH4_column_volume_mixing_ratio_dry_air_bias_corrected",
+        "impact": 0.039,
+        "effect": "increases"
+      },
+      {
+        "trend_description": "Green_Score",
+        "influencing_feature": "trees",
+        "impact": 0.052,
+        "effect": "increases"
+      },
+      {
+        "trend_description": "Climate_Risk_Index",
+        "influencing_feature": "built",
+        "impact": 0.025,
+        "effect": "increases"
+      }
+    ],
+    "socioeconomic_status": {
+      "schools": 20,
+      "hospitals": 20,
+      "banks": 20,
+      "grocery_stores": 20
+    },
+    "industries_present": [
+      {
+        "name": "Srikakulam",
+        "address": "Srikakulam",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "name": "Jeans Park",
+        "address": "GT Road, Chinna Bharatham Colony, Srikakulam",
+        "types": [
+          "store",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Sri Harinarayana Hospital",
+        "address": "12-9-8C, Adangivari Veedhi, Old Bus Stand Area, L.B.S Colony, Srikakulam",
+        "types": [
+          "doctor",
+          "health",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Diamond park",
+        "address": "opp. Diamond Park, 8-11-113, GT Road, New Colony, Srikakulam",
+        "types": [
+          "park",
+          "tourist_attraction",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Srikakulam District Police Office",
+        "address": "8V5V+9PM, RTC Complex Area, Shanti Nagar Colony, Balaga, Srikakulam",
+        "types": [
+          "police",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Kameswari Jewellers",
+        "address": "Kollavari Street, Seven Road Junction, Srikakulam",
+        "types": [
+          "jewelry_store",
+          "store",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Sri Sivani College of Engineering",
+        "address": "7RC5+65G, Etcherla, Chilakapalem",
+        "types": [
+          "university",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Bhramaramba Mallikarjuna Swami",
+        "address": "7WQ7+576, Temple Street, Arasavilli, Srikakulam",
+        "types": [
+          "hindu_temple",
+          "place_of_worship",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Navin Travels",
+        "address": "8V7V+6W8, Balaga, Srikakulam",
+        "types": [
+          "travel_agency",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Govt. Degree College for men, Srikakulam",
+        "address": "8V5R+P4F, Shanti Nagar Colony, Balaga, Srikakulam",
+        "types": [
+          "university",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "ICICI Bank ATM",
+        "address": "Zilla Parishad Road, Krishna Park Area, New Colony, Srikakulam",
+        "types": [
+          "atm",
+          "bank",
+          "finance",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Keshava Reddy Concept School",
+        "address": "7RJC+CRG, National Highway 16, Etcherla",
+        "types": [
+          "school",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Peter England",
+        "address": "Krishna Park, Zilla Parishad Road, Krishna Park Area, New Colony, Srikakulam",
+        "types": [
+          "clothing_store",
+          "store",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Texmart Srikakulam",
+        "address": "GT Road, near 7 Roads Junction, State Highway 37, Srikakulam",
+        "types": [
+          "clothing_store",
+          "store",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Indian Bank",
+        "address": "8V5V+4RR, RTC Complex Area, Meher Nager, Srikakulam",
+        "types": [
+          "bank",
+          "atm",
+          "finance",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "SSR Degree & PG college(SSR College of Education)",
+        "address": "8V5W+689, Illisipuram, Meher Nager, Srikakulam",
+        "types": [
+          "university",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Srikakulam Church Of Christ",
+        "address": "Manguvarithota, Manguvari Thota Street, Zilla parishad Area, L.B.S Colony, Srikakulam",
+        "types": [
+          "church",
+          "place_of_worship",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Railway Reservation Counter",
+        "address": "7VRW+WR2, municipal office building, Old Bus Stand Road, Srikakulam",
+        "types": [
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Narayana Junior College",
+        "address": "Plot No. A-13-P, New Colony & 12-3-1-1/B, Womens College Road, ING Vysya Upstairs, Srikakulam",
+        "types": [
+          "university",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "New Colony",
+        "address": "New Colony",
+        "types": [
+          "sublocality_level_1",
+          "sublocality",
+          "political"
+        ]
+      }
+    ],
+    "research_findings": {
+      "water management": {
+        "research_papers": [],
+        "surveys_and_reports": [
+          "https://www.nass.usda.gov/Surveys/Guide_to_NASS_Surveys/Farm_and_Ranch_Irrigation/index.php",
+          "https://wmo.int/publication-series/state-of-global-water-resources-2023",
+          "https://www.nass.usda.gov/Publications/AgCensus/2017/Online_Resources/Farm_and_Ranch_Irrigation_Survey/index.php",
+          "https://www.sfwmd.gov/our-work/water-supply",
+          "https://www.nass.usda.gov/Publications/AgCensus/2022/Online_Resources/Farm_and_Ranch_Irrigation_Survey/index.php"
+        ]
+      },
+      "soil status": {
+        "research_papers": [],
+        "surveys_and_reports": [
+          "https://websoilsurvey.nrcs.usda.gov/",
+          "https://www.ncagr.gov/divisions/agronomic-services/find-your-report",
+          "https://openknowledge.fao.org/server/api/core/bitstreams/6ec24d75-19bd-4f1f-b1c5-5becf50d0871/content",
+          "https://agdatacommons.nal.usda.gov/articles/dataset/A_Survey_to_Evaluate_the_Current_Status_of_Land_Grant_University_and_State_Department_of_Agriculture_Soil_Fertility_Recommendations_and_Analytical_Methods/24680958",
+          "https://openknowledge.fao.org/server/api/core/bitstreams/81533344-7e7c-473d-96d7-e18de59d6548/content"
+        ]
+      },
+      "population": {
+        "research_papers": [],
+        "surveys_and_reports": [
+          "https://www.census.gov/programs-surveys/cps.html",
+          "https://www.psacard.com/pop",
+          "https://www.census.gov/programs-surveys/cps/data.html",
+          "https://www.bls.gov/cps/",
+          "https://population.un.org/wpp/"
+        ]
+      }
+    },
+    "web_search": []
+  },
+  {
+    "zone": 3,
+    "zone_name": "Peddakhojiria",
+    "location": {
+      "latitude": 19.016028649181287,
+      "longitude": 84.62481156519043
+    },
+    "land_cover": {
+      "bare": 0.1778467753442475,
+      "built": 0.3253866993168785,
+      "crops": 0.3788122558601666,
+      "flooded_vegetation": 0.1504986175654247,
+      "grass": 0.1983481552061391,
+      "shrub_and_scrub": 0.3241870802862541,
+      "snow_and_ice": 0.307332051039182,
+      "trees": 0.3091954181302441,
+      "water": 0.1102092634512724
+    },
+    "environmental_factors": {
+      "temperature": 0.1061899103381227,
+      "humidity": 0.0,
+      "precipitation": 0.0,
+      "wind_speed": 0.2307692378230347,
+      "BCCMASS": 0.8978004889124304,
+      "CH4_column_volume_mixing_ratio_dry_air_bias_corrected": 0.6923061062388144,
+      "CO_column_number_density": 0.8592781825942499,
+      "DUCMASS": 0.8807691804149418,
+      "NO2_column_number_density": 0.1713696713612345,
+      "O3_column_number_density": 0.7366567872564602,
+      "SO2_column_number_density": 0.4932662517935521,
+      "absorbing_aerosol_index": 0.6286156678223268,
+      "tropospheric_HCHO_column_number_density": 0.2753231119226955
+    },
+    "risk_metrics": {
+      "Health_Risk_Index": 0.4178505321125551,
+      "Urban_Heat_Index": 2.164988728701556,
+      "Real_Estate_Risk": 0.2987420510820586,
+      "Green_Score": 0.2789395716842146,
+      "H(Hazard)": 0.2037339542305091,
+      "E(Exposure)": 0.2834269541257859,
+      "V(Vulnerability)": 0.8484912845034791,
+      "CRI": 0.0489950211785077,
+      "Risk_Category": "Moderate"
+    },
+    "trends": [
+      {
+        "trend_description": "Hazard_Score",
+        "influencing_feature": "humidity",
+        "impact": 0.015,
+        "effect": "increases"
+      },
+      {
+        "trend_description": "Exposure_Score",
+        "influencing_feature": "flooded_vegetation",
+        "impact": 0.04,
+        "effect": "increases"
+      },
+      {
+        "trend_description": "Vulnerability_Index",
+        "influencing_feature": "crops",
+        "impact": 0.063,
+        "effect": "increases"
+      },
+      {
+        "trend_description": "Health_Risk_Index",
+        "influencing_feature": "CH4_column_volume_mixing_ratio_dry_air_bias_corrected",
+        "impact": 0.041,
+        "effect": "increases"
+      },
+      {
+        "trend_description": "Urban_Heat_Index",
+        "influencing_feature": "crops",
+        "impact": 0.228,
+        "effect": "increases"
+      },
+      {
+        "trend_description": "Real_Estate_Risk",
+        "influencing_feature": "CH4_column_volume_mixing_ratio_dry_air_bias_corrected",
+        "impact": 0.043,
+        "effect": "increases"
+      },
+      {
+        "trend_description": "Green_Score",
+        "influencing_feature": "trees",
+        "impact": 0.052,
+        "effect": "increases"
+      },
+      {
+        "trend_description": "Climate_Risk_Index",
+        "influencing_feature": "crops",
+        "impact": 0.018,
+        "effect": "increases"
+      }
+    ],
+    "socioeconomic_status": {
+      "schools": 20,
+      "hospitals": 6,
+      "banks": 1,
+      "grocery_stores": 20
+    },
+    "industries_present": [
+      {
+        "name": "Sompeta",
+        "address": "Sompeta",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "name": "FRIENDS NET CENTER",
+        "address": "FRIENDS NET, PALLI STREET, Kaviti",
+        "types": [
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Meeseva Slpt",
+        "address": "2J5M+JWQ, Unnamed Road, Silagam",
+        "types": [
+          "shopping_mall",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "IndianOil",
+        "address": "Lock No T2/256 Kanchili, Jadupudi",
+        "types": [
+          "gas_station",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Adarsh Service Center",
+        "address": "XHMJ+GCG, Kanchili",
+        "types": [
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Apollo",
+        "address": "Main Road, Sompeta",
+        "types": [
+          "health",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Mee Seva Center , M.S.Palli",
+        "address": "2H29+9XR, Main Road, M.S Palli",
+        "types": [
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Dilevery dreems",
+        "address": "Golla kanchili, Kanchili",
+        "types": [
+          "post_office",
+          "finance",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "IndianOil",
+        "address": "Ground Floor G Balarmpur, Dharmpur, Jarada",
+        "types": [
+          "gas_station",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Kanchamma Temple Buradapadu",
+        "address": "XHPC+534, Buradapadu",
+        "types": [
+          "hindu_temple",
+          "place_of_worship",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "APSWREIS",
+        "address": "18\u00b058'35.5\"N 84\u00b034'34.6\"E",
+        "types": [
+          "school",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Jagannath Swamy Temple",
+        "address": "XHFH+C82, Ichapur, Sompeta Road, Kanchili",
+        "types": [
+          "hindu_temple",
+          "place_of_worship",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Chintamani Communications ( Center for all online services",
+        "address": "Kaviti-Rajpuram Road, Kaviti",
+        "types": [
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Santosh Fancy",
+        "address": "Shop 7, Mainroad, Kaviti",
+        "types": [
+          "store",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Electrical A.E Office APEPDCL-Kaviti",
+        "address": "2M6R+C3G, Kaviti",
+        "types": [
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "State Bank of India",
+        "address": "2M5R+W2V, opp. POST OFFICE, MAIN ROAD, &MANDA, Kaviti",
+        "types": [
+          "bank",
+          "finance",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "MeeSeva Center",
+        "address": "2M6R+83X, Kaviti",
+        "types": [
+          "local_government_office",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "STATE BANK ATM",
+        "address": "2M6R+C8X, Sompeta-Kaviti Road, Kaviti",
+        "types": [
+          "atm",
+          "finance",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Jagannath Temple",
+        "address": "2M6R+MH8, Kandara Street, Kaviti",
+        "types": [
+          "hindu_temple",
+          "place_of_worship",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Rapakaputtuga",
+        "address": "Rapakaputtuga",
+        "types": [
+          "sublocality_level_1",
+          "sublocality",
+          "political"
+        ]
+      }
+    ],
+    "research_findings": {
+      "water management": {
+        "research_papers": [],
+        "surveys_and_reports": [
+          "https://www.nass.usda.gov/Surveys/Guide_to_NASS_Surveys/Farm_and_Ranch_Irrigation/index.php",
+          "https://water.ca.gov/",
+          "https://www.nass.usda.gov/Publications/AgCensus/2017/Online_Resources/Farm_and_Ranch_Irrigation_Survey/index.php",
+          "https://wmo.int/publication-series/state-of-global-water-resources-2023",
+          "https://www.nass.usda.gov/Publications/AgCensus/2022/Online_Resources/Farm_and_Ranch_Irrigation_Survey/index.php"
+        ]
+      },
+      "soil status": {
+        "research_papers": [],
+        "surveys_and_reports": [
+          "https://websoilsurvey.nrcs.usda.gov/",
+          "https://www.ncagr.gov/divisions/agronomic-services/find-your-report",
+          "https://openknowledge.fao.org/server/api/core/bitstreams/6ec24d75-19bd-4f1f-b1c5-5becf50d0871/content",
+          "https://agdatacommons.nal.usda.gov/articles/dataset/A_Survey_to_Evaluate_the_Current_Status_of_Land_Grant_University_and_State_Department_of_Agriculture_Soil_Fertility_Recommendations_and_Analytical_Methods/24680958",
+          "https://openknowledge.fao.org/server/api/core/bitstreams/81533344-7e7c-473d-96d7-e18de59d6548/content"
+        ]
+      },
+      "population": {
+        "research_papers": [],
+        "surveys_and_reports": [
+          "https://www.census.gov/programs-surveys/cps.html",
+          "https://www.psacard.com/pop",
+          "https://www.census.gov/programs-surveys/cps/data.html",
+          "https://www.bls.gov/cps/",
+          "https://population.un.org/wpp/"
+        ]
+      }
+    },
+    "web_search": []
+  },
+  {
+    "zone": 4,
+    "zone_name": "Tallapadu",
+    "location": {
+      "latitude": 18.68775734500933,
+      "longitude": 83.98039031201839
+    },
+    "land_cover": {
+      "bare": 0.1663231917226436,
+      "built": 0.3691541825527731,
+      "crops": 0.5416255294765808,
+      "flooded_vegetation": 0.1862443995765763,
+      "grass": 0.3168638133640806,
+      "shrub_and_scrub": 0.4857910987368359,
+      "snow_and_ice": 0.2453629258685974,
+      "trees": 0.2986264117227458,
+      "water": 0.0181525825191165
+    },
+    "environmental_factors": {
+      "temperature": 0.5830382085524385,
+      "humidity": 0.5938987670540748,
+      "precipitation": 0.0,
+      "wind_speed": 0.5514511762053435,
+      "BCCMASS": 0.4114043783011611,
+      "CH4_column_volume_mixing_ratio_dry_air_bias_corrected": 0.862461785693657,
+      "CO_column_number_density": 0.5494400598156791,
+      "DUCMASS": 0.4027808697583717,
+      "NO2_column_number_density": 0.3012111455694042,
+      "O3_column_number_density": 0.5068043661970189,
+      "SO2_column_number_density": 0.3046217794057174,
+      "absorbing_aerosol_index": 0.3862628399428949,
+      "tropospheric_HCHO_column_number_density": 0.4213886201451993
+    },
+    "risk_metrics": {
+      "Health_Risk_Index": 0.4229896331824978,
+      "Urban_Heat_Index": 2.7498557164581423,
+      "Real_Estate_Risk": 0.3158229431169719,
+      "Green_Score": 0.3415305696179642,
+      "H(Hazard)": 0.3624542657953792,
+      "E(Exposure)": 0.3209293166851403,
+      "V(Vulnerability)": 1.0231640998720395,
+      "CRI": 0.1190166989060167,
+      "Risk_Category": "Very High"
+    },
+    "trends": [
+      {
+        "trend_description": "Hazard_Score",
+        "influencing_feature": "absorbing_aerosol_index",
+        "impact": 0.012,
+        "effect": "increases"
+      },
+      {
+        "trend_description": "Exposure_Score",
+        "influencing_feature": "built",
+        "impact": 0.062,
+        "effect": "increases"
+      },
+      {
+        "trend_description": "Vulnerability_Index",
+        "influencing_feature": "built",
+        "impact": 0.129,
+        "effect": "increases"
+      },
+      {
+        "trend_description": "Health_Risk_Index",
+        "influencing_feature": "NO2_column_number_density",
+        "impact": 0.04,
+        "effect": "increases"
+      },
+      {
+        "trend_description": "Urban_Heat_Index",
+        "influencing_feature": "built",
+        "impact": 0.38,
+        "effect": "increases"
+      },
+      {
+        "trend_description": "Real_Estate_Risk",
+        "influencing_feature": "NO2_column_number_density",
+        "impact": 0.048,
+        "effect": "increases"
+      },
+      {
+        "trend_description": "Green_Score",
+        "influencing_feature": "built",
+        "impact": 0.037,
+        "effect": "decreases"
+      },
+      {
+        "trend_description": "Climate_Risk_Index",
+        "influencing_feature": "built",
+        "impact": 0.05,
+        "effect": "increases"
+      }
+    ],
+    "socioeconomic_status": {
+      "schools": 20,
+      "hospitals": 6,
+      "banks": 1,
+      "grocery_stores": 20
+    },
+    "industries_present": [
+      {
+        "name": "Vondrujola",
+        "address": "Vondrujola",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "name": "nageswara rao HOTEL",
+        "address": "MW9X+WV4, near Vegitable market, Hiramandalam",
+        "types": [
+          "restaurant",
+          "food",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Hiramandalam Police Station",
+        "address": "MWFX+HWC, Hiramandalam",
+        "types": [
+          "police",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Hospital",
+        "address": "MWPX+WG8, Bommika",
+        "types": [
+          "hospital",
+          "health",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Sri Rameswari Degree, Sri Rama Junior Colleges",
+        "address": "D.No.12, 140, Korada Veedhi, Colony, Hiramandalam",
+        "types": [
+          "university",
+          "school",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Saibaba Temple",
+        "address": "MWMW+8WR, Srikakulam",
+        "types": [
+          "hindu_temple",
+          "place_of_worship",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "State Bank of India \u0c2d\u0c3e\u0c30\u0c24\u0c40\u0c2f \u0c38\u0c4d\u0c1f\u0c47\u0c1f\u0c4d \u0c2c\u0c4d\u0c2f\u0c3e\u0c02\u0c15\u0c4d",
+        "address": "Hiramandalam",
+        "types": [
+          "bank",
+          "atm",
+          "finance",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Narayana School",
+        "address": "MXC2+P64, Hiramandalam",
+        "types": [
+          "school",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Petrol Pump",
+        "address": "MWFX+XGQ, Hiramandalam",
+        "types": [
+          "gas_station",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Saikrishna Graphics and Digital Offset",
+        "address": "Hiramandalam",
+        "types": [
+          "store",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Sri Balaji Medical & General Stores",
+        "address": "MX92+P8J, Alikam \u2013 Battili Road, Hiramandalam",
+        "types": [
+          "pharmacy",
+          "store",
+          "health",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "MeeSeva Center",
+        "address": "MW9X+PX6, Andhavapu Street, Hiramandalam",
+        "types": [
+          "local_government_office",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "The Professional Couriers",
+        "address": "Main Road, Srikakulam District, Hiramandalam",
+        "types": [
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "MeeSeva Center",
+        "address": "JWCQ+QVC, Lakshminarasupeta addu road/Junction., Foxdorapeta",
+        "types": [
+          "local_government_office",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Mee Seva, Rama Krishna Puram, Kotturu Mandal",
+        "address": "QW6X+RR2, Rama Krishnapuram, Sirusuvada",
+        "types": [
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Ramakrishnapuram Nivagam Kothuru Mandal Andhra Pradesh",
+        "address": "Unnamed Road, Madanapuram",
+        "types": [
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "A P G V B BANK",
+        "address": "P3G4+23W, Korasavada",
+        "types": [
+          "bank",
+          "finance",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Gotta laxmipuram",
+        "address": "MXPG+W2R, Hiramandalam",
+        "types": [
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Lokonda village panchayati",
+        "address": "MXJP+6FG, Lokonda",
+        "types": [
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Hiramandalam",
+        "address": "Hiramandalam",
+        "types": [
+          "locality",
+          "political"
+        ]
+      }
+    ],
+    "research_findings": {
+      "water management": {
+        "research_papers": [],
+        "surveys_and_reports": [
+          "https://www.nass.usda.gov/Surveys/Guide_to_NASS_Surveys/Farm_and_Ranch_Irrigation/index.php",
+          "https://wmo.int/publication-series/state-of-global-water-resources-2023",
+          "https://www.nass.usda.gov/Publications/AgCensus/2022/Online_Resources/Farm_and_Ranch_Irrigation_Survey/index.php",
+          "https://www.sfwmd.gov/our-work/water-supply",
+          "https://www.usgs.gov/mission-areas/water-resources"
+        ]
+      },
+      "soil status": {
+        "research_papers": [],
+        "surveys_and_reports": [
+          "https://websoilsurvey.nrcs.usda.gov/",
+          "https://www.ncagr.gov/divisions/agronomic-services/find-your-report",
+          "https://openknowledge.fao.org/server/api/core/bitstreams/6ec24d75-19bd-4f1f-b1c5-5becf50d0871/content",
+          "https://agdatacommons.nal.usda.gov/articles/dataset/A_Survey_to_Evaluate_the_Current_Status_of_Land_Grant_University_and_State_Department_of_Agriculture_Soil_Fertility_Recommendations_and_Analytical_Methods/24680958",
+          "https://openknowledge.fao.org/server/api/core/bitstreams/81533344-7e7c-473d-96d7-e18de59d6548/content"
+        ]
+      },
+      "population": {
+        "research_papers": [],
+        "surveys_and_reports": [
+          "https://www.census.gov/programs-surveys/cps.html",
+          "https://www.psacard.com/pop",
+          "https://www.census.gov/programs-surveys/cps/data.html",
+          "https://www.bls.gov/cps/",
+          "https://population.un.org/wpp/"
+        ]
+      }
+    },
+    "web_search": []
+  },
+  {
+    "zone": 5,
+    "zone_name": "Anthakapalli",
+    "location": {
+      "latitude": 18.44378649500109,
+      "longitude": 83.6986971759639
+    },
+    "land_cover": {
+      "bare": 0.1672863361874225,
+      "built": 0.1686879193152506,
+      "crops": 0.2923159211525431,
+      "flooded_vegetation": 0.276092194015095,
+      "grass": 0.5163817465566337,
+      "shrub_and_scrub": 0.3166511979758064,
+      "snow_and_ice": 0.4785202743526927,
+      "trees": 0.4343919704399139,
+      "water": 0.0281044425671064
+    },
+    "environmental_factors": {
+      "temperature": 0.784701335546927,
+      "humidity": 0.720322915327198,
+      "precipitation": 0.0,
+      "wind_speed": 0.5789473635947655,
+      "BCCMASS": 0.3309517012244531,
+      "CH4_column_volume_mixing_ratio_dry_air_bias_corrected": 0.7113821716984541,
+      "CO_column_number_density": 0.6480067546436409,
+      "DUCMASS": 0.1776256718918593,
+      "NO2_column_number_density": 0.5745020086465542,
+      "O3_column_number_density": 0.3119727606446577,
+      "SO2_column_number_density": 0.2165103378702327,
+      "absorbing_aerosol_index": 0.3657881336802409,
+      "tropospheric_HCHO_column_number_density": 0.3534330155750518
+    },
+    "risk_metrics": {
+      "Health_Risk_Index": 0.4736091525274064,
+      "Urban_Heat_Index": 2.7645346175911363,
+      "Real_Estate_Risk": 0.3859416895473971,
+      "Green_Score": 0.4354407487821083,
+      "H(Hazard)": 0.4243575001190794,
+      "E(Exposure)": 0.2056452604947954,
+      "V(Vulnerability)": 1.052448309319572,
+      "CRI": 0.0918441209630655,
+      "Risk_Category": "High"
+    },
+    "trends": [
+      {
+        "trend_description": "Hazard_Score",
+        "influencing_feature": "absorbing_aerosol_index",
+        "impact": 0.017,
+        "effect": "increases"
+      },
+      {
+        "trend_description": "Exposure_Score",
+        "influencing_feature": "built",
+        "impact": 0.07,
+        "effect": "increases"
+      },
+      {
+        "trend_description": "Vulnerability_Index",
+        "influencing_feature": "built",
+        "impact": 0.184,
+        "effect": "increases"
+      },
+      {
+        "trend_description": "Health_Risk_Index",
+        "influencing_feature": "CO_column_number_density",
+        "impact": 0.013,
+        "effect": "decreases"
+      },
+      {
+        "trend_description": "Urban_Heat_Index",
+        "influencing_feature": "built",
+        "impact": 0.583,
+        "effect": "increases"
+      },
+      {
+        "trend_description": "Real_Estate_Risk",
+        "influencing_feature": "tropospheric_HCHO_column_number_density",
+        "impact": 0.023,
+        "effect": "increases"
+      },
+      {
+        "trend_description": "Green_Score",
+        "influencing_feature": "trees",
+        "impact": 0.075,
+        "effect": "increases"
+      },
+      {
+        "trend_description": "Climate_Risk_Index",
+        "influencing_feature": "built",
+        "impact": 0.061,
+        "effect": "increases"
+      }
+    ],
+    "socioeconomic_status": {
+      "schools": 20,
+      "hospitals": 20,
+      "banks": 20,
+      "grocery_stores": 20
+    },
+    "industries_present": [
+      {
+        "name": "Razam",
+        "address": "Razam",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "name": "GMR Institute of Technology",
+        "address": "GMR Nagar, Razam",
+        "types": [
+          "university",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "State Bank of India RAJAM",
+        "address": "RAJAM ,SRIKAKULAM ROAD DIST:SRIKAKULAM, Srikakulam",
+        "types": [
+          "bank",
+          "finance",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "GMR Varalakshmi Care Hospital",
+        "address": "Hospital Rd, GMR Nagar, Near Andhra Bank GMR Nagar, Srikakulam District, Razam",
+        "types": [
+          "hospital",
+          "health",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Sub-Registrar Office",
+        "address": "FM25+2C7, Razam",
+        "types": [
+          "local_government_office",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "GCSR Degree College",
+        "address": "GMR, Ganesh Nagar, Razam",
+        "types": [
+          "university",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "TECHNOSOFT SOLUTIONS",
+        "address": "Sai Krishna Nagar, Razam",
+        "types": [
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Maruti Suzuki Service (Varun Motors)",
+        "address": "beside Sri Chaitanya School, Srikakulam-Rajam Road, Razam",
+        "types": [
+          "car_repair",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Sri Chaitanya Techno School, Rajam",
+        "address": "CMX9+9W7, Razam",
+        "types": [
+          "school",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Maruti Suzuki ARENA (Varun Motors, Rajam, Sarathi Nagar)",
+        "address": "PlotNo-44, Sarathi Nagar,Rajam Nagar Panchayat,Rajam, Srikualam Dist",
+        "types": [
+          "car_dealer",
+          "store",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "HDFC Bank",
+        "address": "Ground Floor, beside LIC of India, No 4/323, Srikakulam Road, Srikakulam",
+        "types": [
+          "bank",
+          "finance",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "ICICI Bank Rajam, Srikakulam-Branch & ATM",
+        "address": "near LIC Building, D. No-4-372, Srikakulam Road, Rajam",
+        "types": [
+          "bank",
+          "finance",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Meeseva Center",
+        "address": "Srikakulam road, Razam",
+        "types": [
+          "store",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "LIC of India, Branch Office",
+        "address": "Razam",
+        "types": [
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "CANARA BANK ATM",
+        "address": "CMX7+P53, Sai Krishna Nagar, Razam",
+        "types": [
+          "atm",
+          "finance",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "State Bank of Hyderabad ATM",
+        "address": "CMX7+J3M, Palakonda - Rajam Road, Razam",
+        "types": [
+          "atm",
+          "finance",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Axis Bank Branch",
+        "address": "Rajam Rajam, Nagar",
+        "types": [
+          "bank",
+          "finance",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Karur Vysya Bank & ATM",
+        "address": "CMX7+Q2V, Palakonda - Rajam Road, Sai Krishna Nagar, Razam",
+        "types": [
+          "bank",
+          "atm",
+          "finance",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "BANK OF INDIA",
+        "address": "CMX6+PJX, Razam",
+        "types": [
+          "bank",
+          "finance",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Pogiri",
+        "address": "Pogiri",
+        "types": [
+          "locality",
+          "political"
+        ]
+      }
+    ],
+    "research_findings": {
+      "water management": {
+        "research_papers": [],
+        "surveys_and_reports": [
+          "https://www.nass.usda.gov/Surveys/Guide_to_NASS_Surveys/Farm_and_Ranch_Irrigation/index.php",
+          "https://wmo.int/publication-series/state-of-global-water-resources-2023",
+          "https://www.nass.usda.gov/Publications/AgCensus/2022/Online_Resources/Farm_and_Ranch_Irrigation_Survey/index.php",
+          "https://www.sfwmd.gov/our-work/water-supply",
+          "https://www.usgs.gov/mission-areas/water-resources"
+        ]
+      },
+      "soil status": {
+        "research_papers": [],
+        "surveys_and_reports": [
+          "https://websoilsurvey.nrcs.usda.gov/",
+          "https://www.ncagr.gov/divisions/agronomic-services/find-your-report",
+          "https://openknowledge.fao.org/server/api/core/bitstreams/6ec24d75-19bd-4f1f-b1c5-5becf50d0871/content",
+          "https://agdatacommons.nal.usda.gov/articles/dataset/A_Survey_to_Evaluate_the_Current_Status_of_Land_Grant_University_and_State_Department_of_Agriculture_Soil_Fertility_Recommendations_and_Analytical_Methods/24680958",
+          "https://openknowledge.fao.org/server/api/core/bitstreams/81533344-7e7c-473d-96d7-e18de59d6548/content"
+        ]
+      },
+      "population": {
+        "research_papers": [],
+        "surveys_and_reports": [
+          "https://www.census.gov/programs-surveys/cps.html",
+          "https://www.psacard.com/pop",
+          "https://www.census.gov/programs-surveys/cps/data.html",
+          "https://www.bls.gov/cps/",
+          "https://population.un.org/wpp/"
+        ]
+      }
+    },
+    "web_search": []
+  },
+  {
+    "zone": 6,
+    "zone_name": "Gudangi",
+    "location": {
+      "latitude": 18.82653131158808,
+      "longitude": 83.80828559889295
+    },
+    "land_cover": {
+      "bare": 0.1618896252702582,
+      "built": 0.1410127223349818,
+      "crops": 0.3068567187014227,
+      "flooded_vegetation": 0.1079712441729217,
+      "grass": 0.4064971750021211,
+      "shrub_and_scrub": 0.5163090067795565,
+      "snow_and_ice": 0.1775432338484076,
+      "trees": 0.5476386523907266,
+      "water": 0.0112743276314591
+    },
+    "environmental_factors": {
+      "temperature": 0.4596498780996688,
+      "humidity": 0.5483039302193868,
+      "precipitation": 0.0,
+      "wind_speed": 0.4965309225914026,
+      "BCCMASS": 0.0155455891701036,
+      "CH4_column_volume_mixing_ratio_dry_air_bias_corrected": 0.6970447323288489,
+      "CO_column_number_density": 0.3636709207629397,
+      "DUCMASS": 0.0152197357565725,
+      "NO2_column_number_density": 0.2946170537534702,
+      "O3_column_number_density": 0.4740259682342608,
+      "SO2_column_number_density": 0.2701905229289199,
+      "absorbing_aerosol_index": 0.3382546008969392,
+      "tropospheric_HCHO_column_number_density": 0.4558591449157056
+    },
+    "risk_metrics": {
+      "Health_Risk_Index": 0.3721383849355277,
+      "Urban_Heat_Index": 1.8772079370049344,
+      "Real_Estate_Risk": 0.2565682282224074,
+      "Green_Score": 0.4990302800519109,
+      "H(Hazard)": 0.304852068127569,
+      "E(Exposure)": 0.2060456557305475,
+      "V(Vulnerability)": 0.7134283527149818,
+      "CRI": 0.0448128920797209,
+      "Risk_Category": "Low"
+    },
+    "trends": [
+      {
+        "trend_description": "Hazard_Score",
+        "influencing_feature": "humidity",
+        "impact": 0.026,
+        "effect": "increases"
+      },
+      {
+        "trend_description": "Exposure_Score",
+        "influencing_feature": "trees",
+        "impact": 0.078,
+        "effect": "decreases"
+      },
+      {
+        "trend_description": "Vulnerability_Index",
+        "influencing_feature": "NO2_column_number_density",
+        "impact": 0.137,
+        "effect": "increases"
+      },
+      {
+        "trend_description": "Health_Risk_Index",
+        "influencing_feature": "NO2_column_number_density",
+        "impact": 0.017,
+        "effect": "increases"
+      },
+      {
+        "trend_description": "Urban_Heat_Index",
+        "influencing_feature": "NO2_column_number_density",
+        "impact": 0.303,
+        "effect": "increases"
+      },
+      {
+        "trend_description": "Real_Estate_Risk",
+        "influencing_feature": "bare",
+        "impact": 0.062,
+        "effect": "increases"
+      },
+      {
+        "trend_description": "Green_Score",
+        "influencing_feature": "CO_column_number_density",
+        "impact": 0.08,
+        "effect": "decreases"
+      },
+      {
+        "trend_description": "Climate_Risk_Index",
+        "influencing_feature": "water",
+        "impact": 0.036,
+        "effect": "increases"
+      }
+    ],
+    "socioeconomic_status": {
+      "schools": 13,
+      "hospitals": 0,
+      "banks": 1,
+      "grocery_stores": 20
+    },
+    "industries_present": [
+      {
+        "name": "Kashinagar",
+        "address": "Kashinagar",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "name": "Axis Bank Branch",
+        "address": "No 1/6, 885, KT Road, Kasibugga, Palasa",
+        "types": [
+          "bank",
+          "finance",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Andhra Bank ATM",
+        "address": "VV3C+5MV, Kashinagar",
+        "types": [
+          "atm",
+          "finance",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "State Bank of India KASHINAGARA",
+        "address": "VV5J+FH8, near FOREST JUNCTION, GUNUPUR ROAD, Kashinagar",
+        "types": [
+          "bank",
+          "atm",
+          "finance",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "SBI ATM",
+        "address": "VV5J+FH8, Kashinagar",
+        "types": [
+          "atm",
+          "finance",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "State Bank of India KOTTURU",
+        "address": "BATHILI ROAD, DIST:, Kotturu",
+        "types": [
+          "bank",
+          "atm",
+          "finance",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "State Bank Of India ATM",
+        "address": "QVHG+QMP, Kotturu",
+        "types": [
+          "atm",
+          "finance",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Flipkart Center",
+        "address": "QVHG+CM7, Kotturu",
+        "types": [
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Mee Seva Center",
+        "address": "QVHJ+H9J, Palakonda - Kothuru Road, Kotturu",
+        "types": [
+          "local_government_office",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Sri Ayyappa Electricals",
+        "address": "Collage road kotturu, Kotturu",
+        "types": [
+          "electronics_store",
+          "store",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Tankala murali",
+        "address": "naer by hanuman temple, 4-502, nethaji nagar colony, Kotturu",
+        "types": [
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Indian restaurant",
+        "address": "RRFG+QCG, Kotturu",
+        "types": [
+          "bakery",
+          "food",
+          "store",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "St. Thomas church",
+        "address": "RRFG+QCG, Bandrasing",
+        "types": [
+          "church",
+          "place_of_worship",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Burjaguda Bhamini",
+        "address": "RRFG+QCG, Peddadimili",
+        "types": [
+          "school",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Govt School Talada",
+        "address": "Sivalayam, area, Talada",
+        "types": [
+          "school",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "\u0c2a\u0c28\u0c4d\u0c28\u0c46\u0c02 \u0c17\u0c42\u0c21",
+        "address": "RR9G+3HX, Unnamed Road, Kotturu",
+        "types": [
+          "health",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Evangelical Church of India Jujaruguda",
+        "address": "RQQQ+GF, Kanumanu Guda",
+        "types": [
+          "church",
+          "place_of_worship",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Nallaraiguda Waterfall",
+        "address": "RRVG+8WJ, Unnamed Road, Solikiri",
+        "types": [
+          "tourist_attraction",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Palishkota village",
+        "address": "Unnamed Road, Peddadimili",
+        "types": [
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Marripadu",
+        "address": "Marripadu",
+        "types": [
+          "locality",
+          "political"
+        ]
+      }
+    ],
+    "research_findings": {
+      "water management": {
+        "research_papers": [],
+        "surveys_and_reports": [
+          "https://www.nass.usda.gov/Surveys/Guide_to_NASS_Surveys/Farm_and_Ranch_Irrigation/index.php",
+          "https://water.ca.gov/",
+          "https://www.nass.usda.gov/Publications/AgCensus/2017/Online_Resources/Farm_and_Ranch_Irrigation_Survey/index.php",
+          "https://wmo.int/publication-series/state-of-global-water-resources-2023",
+          "https://www.nass.usda.gov/Publications/AgCensus/2022/Online_Resources/Farm_and_Ranch_Irrigation_Survey/index.php"
+        ]
+      },
+      "soil status": {
+        "research_papers": [],
+        "surveys_and_reports": [
+          "https://websoilsurvey.nrcs.usda.gov/",
+          "https://www.ncagr.gov/divisions/agronomic-services/find-your-report",
+          "https://openknowledge.fao.org/server/api/core/bitstreams/6ec24d75-19bd-4f1f-b1c5-5becf50d0871/content",
+          "https://agdatacommons.nal.usda.gov/articles/dataset/A_Survey_to_Evaluate_the_Current_Status_of_Land_Grant_University_and_State_Department_of_Agriculture_Soil_Fertility_Recommendations_and_Analytical_Methods/24680958",
+          "https://openknowledge.fao.org/server/api/core/bitstreams/81533344-7e7c-473d-96d7-e18de59d6548/content"
+        ]
+      },
+      "population": {
+        "research_papers": [],
+        "surveys_and_reports": [
+          "https://www.census.gov/programs-surveys/cps.html",
+          "https://www.psacard.com/pop",
+          "https://www.census.gov/programs-surveys/cps/data.html",
+          "https://www.bls.gov/cps/",
+          "https://population.un.org/wpp/"
+        ]
+      }
+    },
+    "web_search": []
+  },
+  {
+    "zone": 7,
+    "zone_name": "Seethamvalasa",
+    "location": {
+      "latitude": 18.20895756904748,
+      "longitude": 83.68606394501394
+    },
+    "land_cover": {
+      "bare": 0.1507966085657688,
+      "built": 0.3785750312177112,
+      "crops": 0.3213995368475035,
+      "flooded_vegetation": 0.1885835958147533,
+      "grass": 0.2638623538710762,
+      "shrub_and_scrub": 0.2688960424310621,
+      "snow_and_ice": 0.3734556850299217,
+      "trees": 0.4204270165222687,
+      "water": 0.0502015221332024
+    },
+    "environmental_factors": {
+      "temperature": 0.8698475433120773,
+      "humidity": 0.8540334339360826,
+      "precipitation": 0.0,
+      "wind_speed": 0.3983867504790141,
+      "BCCMASS": 0.3864184667927972,
+      "CH4_column_volume_mixing_ratio_dry_air_bias_corrected": 0.7381846283760037,
+      "CO_column_number_density": 0.6187219014630293,
+      "DUCMASS": 0.2073953375720592,
+      "NO2_column_number_density": 0.6157990071341122,
+      "O3_column_number_density": 0.1348657903677088,
+      "SO2_column_number_density": 0.4125057806155522,
+      "absorbing_aerosol_index": 0.3622885161779272,
+      "tropospheric_HCHO_column_number_density": 0.3496614132415673
+    },
+    "risk_metrics": {
+      "Health_Risk_Index": 0.5539371143313041,
+      "Urban_Heat_Index": 3.855929322156764,
+      "Real_Estate_Risk": 0.507366243995264,
+      "Green_Score": 0.3431514229086697,
+      "H(Hazard)": 0.4130893163250114,
+      "E(Exposure)": 0.292932095435286,
+      "V(Vulnerability)": 1.4455117488877367,
+      "CRI": 0.1749172122612804,
+      "Risk_Category": "Very High"
+    },
+    "trends": [
+      {
+        "trend_description": "Hazard_Score",
+        "influencing_feature": "absorbing_aerosol_index",
+        "impact": 0.041,
+        "effect": "increases"
+      },
+      {
+        "trend_description": "Exposure_Score",
+        "influencing_feature": "crops",
+        "impact": 0.034,
+        "effect": "increases"
+      },
+      {
+        "trend_description": "Vulnerability_Index",
+        "influencing_feature": "NO2_column_number_density",
+        "impact": 0.113,
+        "effect": "increases"
+      },
+      {
+        "trend_description": "Health_Risk_Index",
+        "influencing_feature": "NO2_column_number_density",
+        "impact": 0.063,
+        "effect": "increases"
+      },
+      {
+        "trend_description": "Urban_Heat_Index",
+        "influencing_feature": "NO2_column_number_density",
+        "impact": 0.216,
+        "effect": "increases"
+      },
+      {
+        "trend_description": "Real_Estate_Risk",
+        "influencing_feature": "NO2_column_number_density",
+        "impact": 0.041,
+        "effect": "increases"
+      },
+      {
+        "trend_description": "Green_Score",
+        "influencing_feature": "water",
+        "impact": 0.108,
+        "effect": "decreases"
+      },
+      {
+        "trend_description": "Climate_Risk_Index",
+        "influencing_feature": "crops",
+        "impact": 0.005,
+        "effect": "increases"
+      }
+    ],
+    "socioeconomic_status": {
+      "schools": 20,
+      "hospitals": 14,
+      "banks": 17,
+      "grocery_stores": 20
+    },
+    "industries_present": [
+      {
+        "name": "Ranastalam",
+        "address": "Ranastalam",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "name": "Andhra Bank ATM",
+        "address": "Srikakulam NH-5, Visakhapatnam Road, Ranastalam",
+        "types": [
+          "atm",
+          "finance",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "SBI ATM",
+        "address": "6M3R+834, Ranastalam",
+        "types": [
+          "atm",
+          "finance",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "MeeSeva Center",
+        "address": "6M2Q+XR7, Ranastalam",
+        "types": [
+          "local_government_office",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Bajaj Auto Limited",
+        "address": "Ranastalam",
+        "types": [
+          "store",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Sri Radha Govind Mandir, Harekrishba Nagar",
+        "address": "5MMR+V7M, Ranastalam",
+        "types": [
+          "hindu_temple",
+          "place_of_worship",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Sri Laxmana Meeseva",
+        "address": "3-73 MAIN ROAD VENKATAPURAM VILL&POST, Laveru",
+        "types": [
+          "shopping_mall",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Sri Radha Govind Mandir, Harekrishna Nagar",
+        "address": "Hare Krishna Nagar, National Highway 16, Kosta, Ranastalam",
+        "types": [
+          "hindu_temple",
+          "place_of_worship",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "State Bank of India",
+        "address": "Kostha, Srikakulam, NH-5, Visakhapatnam Road, Ranastalam, Ranastalam",
+        "types": [
+          "bank",
+          "finance",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "MeeSeva Center",
+        "address": "5MCC+C9H, Eluru By pass Road 2, Kosta",
+        "types": [
+          "local_government_office",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Mee Seva Center",
+        "address": "6QJ3+P2X, Bejjipuram",
+        "types": [
+          "local_government_office",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "VKT Pharma",
+        "address": "Survey No. 21 to 27, CH Rajam Road, Ranasthalam Mandal, Srikakulam District, Derasam",
+        "types": [
+          "health",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Music studio",
+        "address": "door:3-22, Jr puram, Ranasthalam mandal, Srikakulam",
+        "types": [
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Andhra Bank ATM",
+        "address": "7P9M+2H4, Adapaka",
+        "types": [
+          "atm",
+          "finance",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Raju Meeseva csc",
+        "address": "7P8P+H5W, Adapaka",
+        "types": [
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Sri Raja's High School",
+        "address": "C-10,Sri Rajas High School Pydibheemavaram,Ranasthalam Mandal",
+        "types": [
+          "secondary_school",
+          "school",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Lantech Pharma",
+        "address": "Chittivalasa",
+        "types": [
+          "pharmacy",
+          "store",
+          "health",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "DUKKA SURESH",
+        "address": "6M5P+8W4, Ranastalam",
+        "types": [
+          "store",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "OM Engineering Works",
+        "address": "India",
+        "types": [
+          "store",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Pydibimavaram",
+        "address": "Pydibimavaram",
+        "types": [
+          "locality",
+          "political"
+        ]
+      }
+    ],
+    "research_findings": {
+      "water management": {
+        "research_papers": [],
+        "surveys_and_reports": [
+          "https://www.nass.usda.gov/Surveys/Guide_to_NASS_Surveys/Farm_and_Ranch_Irrigation/index.php",
+          "https://wmo.int/publication-series/state-of-global-water-resources-2023",
+          "https://www.nass.usda.gov/Publications/AgCensus/2022/Online_Resources/Farm_and_Ranch_Irrigation_Survey/index.php",
+          "https://www.sfwmd.gov/our-work/water-supply",
+          "https://www.usgs.gov/mission-areas/water-resources"
+        ]
+      },
+      "soil status": {
+        "research_papers": [],
+        "surveys_and_reports": [
+          "https://websoilsurvey.nrcs.usda.gov/",
+          "https://www.ncagr.gov/divisions/agronomic-services/find-your-report",
+          "https://openknowledge.fao.org/server/api/core/bitstreams/6ec24d75-19bd-4f1f-b1c5-5becf50d0871/content",
+          "https://agdatacommons.nal.usda.gov/articles/dataset/A_Survey_to_Evaluate_the_Current_Status_of_Land_Grant_University_and_State_Department_of_Agriculture_Soil_Fertility_Recommendations_and_Analytical_Methods/24680958",
+          "https://openknowledge.fao.org/server/api/core/bitstreams/81533344-7e7c-473d-96d7-e18de59d6548/content"
+        ]
+      },
+      "population": {
+        "research_papers": [],
+        "surveys_and_reports": [
+          "https://www.census.gov/programs-surveys/cps.html",
+          "https://www.psacard.com/pop",
+          "https://www.census.gov/programs-surveys/cps/data.html",
+          "https://www.bls.gov/cps/",
+          "https://population.un.org/wpp/"
+        ]
+      }
+    },
+    "web_search": []
+  },
+  {
+    "zone": 8,
+    "zone_name": "Onasya",
+    "location": {
+      "latitude": 18.85688165172413,
+      "longitude": 84.47244156127823
+    },
+    "land_cover": {
+      "bare": 0.1365436176435507,
+      "built": 0.2264760741311603,
+      "crops": 0.3695683005440924,
+      "flooded_vegetation": 0.0876629224997464,
+      "grass": 0.1575131669855972,
+      "shrub_and_scrub": 0.4625719674745766,
+      "snow_and_ice": 0.1572853893773929,
+      "trees": 0.3275263043839662,
+      "water": 0.1153237425900832
+    },
+    "environmental_factors": {
+      "temperature": 0.0716975350148702,
+      "humidity": 0.0518395885953483,
+      "precipitation": 0.0,
+      "wind_speed": 0.3257456569766067,
+      "BCCMASS": 0.5151592104789451,
+      "CH4_column_volume_mixing_ratio_dry_air_bias_corrected": 0.7228194000799985,
+      "CO_column_number_density": 0.7559889213431581,
+      "DUCMASS": 0.5030965953436288,
+      "NO2_column_number_density": 0.1403477257290191,
+      "O3_column_number_density": 0.678736258561011,
+      "SO2_column_number_density": 0.2981080340281186,
+      "absorbing_aerosol_index": 0.5289585459061428,
+      "tropospheric_HCHO_column_number_density": 0.2924479189662357
+    },
+    "risk_metrics": {
+      "Health_Risk_Index": 0.3430312351066572,
+      "Urban_Heat_Index": 1.4789832599085673,
+      "Real_Estate_Risk": 0.2049014878991772,
+      "Green_Score": 0.3035314957825776,
+      "H(Hazard)": 0.1924501010810109,
+      "E(Exposure)": 0.2360978179873977,
+      "V(Vulnerability)": 0.5915346200168108,
+      "CRI": 0.0268775874774447,
+      "Risk_Category": "Low"
+    },
+    "trends": [
+      {
+        "trend_description": "Hazard_Score",
+        "influencing_feature": "wind_speed",
+        "impact": 0.007,
+        "effect": "increases"
+      },
+      {
+        "trend_description": "Exposure_Score",
+        "influencing_feature": "built",
+        "impact": 0.091,
+        "effect": "increases"
+      },
+      {
+        "trend_description": "Vulnerability_Index",
+        "influencing_feature": "NO2_column_number_density",
+        "impact": 0.06,
+        "effect": "increases"
+      },
+      {
+        "trend_description": "Health_Risk_Index",
+        "influencing_feature": "CH4_column_volume_mixing_ratio_dry_air_bias_corrected",
+        "impact": 0.033,
+        "effect": "increases"
+      },
+      {
+        "trend_description": "Urban_Heat_Index",
+        "influencing_feature": "NO2_column_number_density",
+        "impact": 0.238,
+        "effect": "increases"
+      },
+      {
+        "trend_description": "Real_Estate_Risk",
+        "influencing_feature": "O3_column_number_density",
+        "impact": 0.035,
+        "effect": "decreases"
+      },
+      {
+        "trend_description": "Green_Score",
+        "influencing_feature": "crops",
+        "impact": 0.109,
+        "effect": "decreases"
+      },
+      {
+        "trend_description": "Climate_Risk_Index",
+        "influencing_feature": "built",
+        "impact": 0.016,
+        "effect": "increases"
+      }
+    ],
+    "socioeconomic_status": {
+      "schools": 20,
+      "hospitals": 8,
+      "banks": 5,
+      "grocery_stores": 20
+    },
+    "industries_present": [
+      {
+        "name": "Mandasa",
+        "address": "Mandasa",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "name": "Sri Venkataswara Kirana Shop",
+        "address": "VF96+RHF, Mandasa",
+        "types": [
+          "point_of_interest",
+          "store",
+          "food",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Meeseva",
+        "address": "VFC6+2CF, Mandasa",
+        "types": [
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "State Bank of India MANDASA",
+        "address": "NEW STREET,MANDASA, POST, DIST:SRIKAKULAM",
+        "types": [
+          "bank",
+          "atm",
+          "finance",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Mandasa Vasudeva Perumal Temple.",
+        "address": "VFJ5+5JC, Sri Vasudeva Street, Mandasa",
+        "types": [
+          "hindu_temple",
+          "place_of_worship",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "PATEL ROADWAYS",
+        "address": "AMIN SAHEP PETA, BORDER, Ichapuram",
+        "types": [
+          "travel_agency",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Kerala Road Ways Pvt ltd",
+        "address": "Amin Sahib Petta, Ichapuram P. O., Ichapuram Border, Srikakulam district, Ichapuram",
+        "types": [
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Inland World Logistics",
+        "address": "A. S. Peta, Ichapuram, Secunderbad",
+        "types": [
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "State Bank of India HARIPURAM",
+        "address": "MAIN ROAD, BALIGAON, Way to Haripuram Junction, Mandasa",
+        "types": [
+          "bank",
+          "atm",
+          "finance",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Andhra Bank",
+        "address": "RGW4+83P, Haripuram",
+        "types": [
+          "bank",
+          "atm",
+          "finance",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Mee Seva Gdp",
+        "address": "bus stop, Unnamed Road, Gurudasupuram",
+        "types": [
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Prajna Institute of Technology & Management",
+        "address": "RF45+V36, National Highway 16, Ramakrishnapuram, Palasa",
+        "types": [
+          "university",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "powergrid substation PALASA",
+        "address": "Ramakrishnapuram",
+        "types": [
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "APGVB Bank",
+        "address": "WH22+79J, Korlam",
+        "types": [
+          "bank",
+          "finance",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Z P H School, Gonakapadu",
+        "address": "Laxmipuram, Korlam",
+        "types": [
+          "school",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Post office",
+        "address": "RHR8+G6V, Sirimamidi",
+        "types": [
+          "post_office",
+          "finance",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "D.naveen kumar house",
+        "address": "RFXC+PRX, Pidimandasa",
+        "types": [
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "\u0c17\u0c41\u0c30\u0c4d\u0c39\u0c28\u0c3f\u0c30\u0c4d\u0c2e\u0c3e\u0c23\u0c02 \u0c06\u0c2b\u0c40\u0c38\u0c4d",
+        "address": "RFXC+PRX, Pidimandasa",
+        "types": [
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Killamma Gudi",
+        "address": "RFXC+Q4W, Savaramadhya",
+        "types": [
+          "hindu_temple",
+          "place_of_worship",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Haripuram",
+        "address": "Haripuram",
+        "types": [
+          "locality",
+          "political"
+        ]
+      }
+    ],
+    "research_findings": {
+      "water management": {
+        "research_papers": [],
+        "surveys_and_reports": [
+          "https://www.nass.usda.gov/Surveys/Guide_to_NASS_Surveys/Farm_and_Ranch_Irrigation/index.php",
+          "https://water.ca.gov/",
+          "https://www.nass.usda.gov/Publications/AgCensus/2017/Online_Resources/Farm_and_Ranch_Irrigation_Survey/index.php",
+          "https://wmo.int/publication-series/state-of-global-water-resources-2023",
+          "https://www.nass.usda.gov/Publications/AgCensus/2022/Online_Resources/Farm_and_Ranch_Irrigation_Survey/index.php"
+        ]
+      },
+      "soil status": {
+        "research_papers": [],
+        "surveys_and_reports": [
+          "https://websoilsurvey.nrcs.usda.gov/",
+          "https://www.ncagr.gov/divisions/agronomic-services/find-your-report",
+          "https://openknowledge.fao.org/server/api/core/bitstreams/6ec24d75-19bd-4f1f-b1c5-5becf50d0871/content",
+          "https://agdatacommons.nal.usda.gov/articles/dataset/A_Survey_to_Evaluate_the_Current_Status_of_Land_Grant_University_and_State_Department_of_Agriculture_Soil_Fertility_Recommendations_and_Analytical_Methods/24680958",
+          "https://openknowledge.fao.org/server/api/core/bitstreams/81533344-7e7c-473d-96d7-e18de59d6548/content"
+        ]
+      },
+      "population": {
+        "research_papers": [],
+        "surveys_and_reports": [
+          "https://www.census.gov/programs-surveys/cps.html",
+          "https://www.psacard.com/pop",
+          "https://www.census.gov/programs-surveys/cps/data.html",
+          "https://www.bls.gov/cps/",
+          "https://population.un.org/wpp/"
+        ]
+      }
+    },
+    "web_search": []
+  },
+  {
+    "zone": 9,
+    "zone_name": "Ramalingam Naidu Colony",
+    "location": {
+      "latitude": 18.36857007127792,
+      "longitude": 84.04260114836868
+    },
+    "land_cover": {
+      "bare": 0.1242752866882028,
+      "built": 0.327434633221878,
+      "crops": 0.4289155188952505,
+      "flooded_vegetation": 0.373394960383308,
+      "grass": 0.431938509870467,
+      "shrub_and_scrub": 0.3897418739356429,
+      "snow_and_ice": 0.2683865093057582,
+      "trees": 0.2682411350140133,
+      "water": 0.0820338006366193
+    },
+    "environmental_factors": {
+      "temperature": 0.7545425240735494,
+      "humidity": 0.6685836288160728,
+      "precipitation": 0.0,
+      "wind_speed": 0.6147137761046308,
+      "BCCMASS": 0.6374962856530288,
+      "CH4_column_volume_mixing_ratio_dry_air_bias_corrected": 0.6512994606039222,
+      "CO_column_number_density": 0.7847955419746172,
+      "DUCMASS": 0.5070883087706042,
+      "NO2_column_number_density": 0.2448031231091876,
+      "O3_column_number_density": 0.522232735405823,
+      "SO2_column_number_density": 0.3311304462798612,
+      "absorbing_aerosol_index": 0.275651306681496,
+      "tropospheric_HCHO_column_number_density": 0.221631452843471
+    },
+    "risk_metrics": {
+      "Health_Risk_Index": 0.3550854059165674,
+      "Urban_Heat_Index": 2.7231483393773503,
+      "Real_Estate_Risk": 0.2872276220829278,
+      "Green_Score": 0.3416504952552753,
+      "H(Hazard)": 0.4044357737792902,
+      "E(Exposure)": 0.2766395079705051,
+      "V(Vulnerability)": 0.98225913907089,
+      "CRI": 0.1098980142558653,
+      "Risk_Category": "High"
+    },
+    "trends": [
+      {
+        "trend_description": "Hazard_Score",
+        "influencing_feature": "wind_speed",
+        "impact": 0.041,
+        "effect": "increases"
+      },
+      {
+        "trend_description": "Exposure_Score",
+        "influencing_feature": "built",
+        "impact": 0.049,
+        "effect": "increases"
+      },
+      {
+        "trend_description": "Vulnerability_Index",
+        "influencing_feature": "built",
+        "impact": 0.135,
+        "effect": "increases"
+      },
+      {
+        "trend_description": "Health_Risk_Index",
+        "influencing_feature": "CH4_column_volume_mixing_ratio_dry_air_bias_corrected",
+        "impact": 0.035,
+        "effect": "increases"
+      },
+      {
+        "trend_description": "Urban_Heat_Index",
+        "influencing_feature": "built",
+        "impact": 0.38,
+        "effect": "increases"
+      },
+      {
+        "trend_description": "Real_Estate_Risk",
+        "influencing_feature": "CH4_column_volume_mixing_ratio_dry_air_bias_corrected",
+        "impact": 0.033,
+        "effect": "increases"
+      },
+      {
+        "trend_description": "Green_Score",
+        "influencing_feature": "trees",
+        "impact": 0.063,
+        "effect": "increases"
+      },
+      {
+        "trend_description": "Climate_Risk_Index",
+        "influencing_feature": "built",
+        "impact": 0.022,
+        "effect": "increases"
+      }
+    ],
+    "socioeconomic_status": {
+      "schools": 20,
+      "hospitals": 9,
+      "banks": 9,
+      "grocery_stores": 20
+    },
+    "industries_present": [
+      {
+        "name": "Narasannapeta",
+        "address": "Narasannapeta",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "name": "Mahesh Traders",
+        "address": "Narasannapeta Main Road, Narasannapeta",
+        "types": [
+          "home_goods_store",
+          "store",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Post Office",
+        "address": "C29W+6CJ, Bajaj Street, Narasannapeta Market, Srikakulam, Visakhapatnam",
+        "types": [
+          "post_office",
+          "finance",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Meeseva",
+        "address": "927W+8MQ, Edulavalsa Vanitha Mandalam Via Mabagam, Mabagam - Edulavalasa Junction Road",
+        "types": [
+          "shopping_mall",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "APGVB Bank",
+        "address": "925W+QV4, Mabagam",
+        "types": [
+          "bank",
+          "finance",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Meeseva",
+        "address": "92GG+649, Mabagam - Devadi Road, Makivalasa",
+        "types": [
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Asiritalli temple",
+        "address": "532429, Edulavalsa Vanitha Mandalam Via Mabagam, Mabagam",
+        "types": [
+          "tourist_attraction",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "MeeSeva Center",
+        "address": "83J4+H44, Gara",
+        "types": [
+          "local_government_office",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "State Bank of India ATM",
+        "address": "Srikakulam, SH-31, Srikakulam Road, Gara, Gara",
+        "types": [
+          "atm",
+          "finance",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "NARAYANA SCHOOL (EM)",
+        "address": "Jagannadhapuram, Narasannapeta",
+        "types": [
+          "school",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Ravindra Bharathi School",
+        "address": "C26Q+CJC, Narasannapeta",
+        "types": [
+          "school",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Fish Market Complex",
+        "address": "C26V+QRV, Chinna Bazar Street, Srinivasa Nagar, Adivarapu Peta, Srikakulam",
+        "types": [
+          "store",
+          "point_of_interest",
+          "food",
+          "establishment"
+        ]
+      },
+      {
+        "name": "State Bank ATM",
+        "address": "C27V+47H, College Road, Narasannapeta",
+        "types": [
+          "atm",
+          "finance",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Bank of Baroda Narasannapeta Branch",
+        "address": "opp. Rajeswari Theatre, Narasannapeta",
+        "types": [
+          "bank",
+          "finance",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Eshwar Computers",
+        "address": "C27W+C6G, Narasannapeta",
+        "types": [
+          "electronics_store",
+          "store",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Govt. Degree and PG College",
+        "address": "Narasannapeta",
+        "types": [
+          "university",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "INDI CASH ATM",
+        "address": "C27R+J2G, Narasannapeta",
+        "types": [
+          "atm",
+          "finance",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "The Professional Couriers",
+        "address": "Near RTC Complex, Main Road, Narasannapeta",
+        "types": [
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "State Bank of India ATM",
+        "address": "C27R+R3R, Parlakhemundi - Narasannapeta Rd, Maruthi Nagar, Narasannapeta",
+        "types": [
+          "atm",
+          "finance",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Ampolu",
+        "address": "Ampolu",
+        "types": [
+          "locality",
+          "political"
+        ]
+      }
+    ],
+    "research_findings": {
+      "water management": {
+        "research_papers": [],
+        "surveys_and_reports": [
+          "https://www.nass.usda.gov/Surveys/Guide_to_NASS_Surveys/Farm_and_Ranch_Irrigation/index.php",
+          "https://water.ca.gov/",
+          "https://www.nass.usda.gov/Publications/AgCensus/2017/Online_Resources/Farm_and_Ranch_Irrigation_Survey/index.php",
+          "https://wmo.int/publication-series/state-of-global-water-resources-2023",
+          "https://www.nass.usda.gov/Publications/AgCensus/2022/Online_Resources/Farm_and_Ranch_Irrigation_Survey/index.php"
+        ]
+      },
+      "soil status": {
+        "research_papers": [],
+        "surveys_and_reports": [
+          "https://websoilsurvey.nrcs.usda.gov/",
+          "https://www.ncagr.gov/divisions/agronomic-services/find-your-report",
+          "https://openknowledge.fao.org/server/api/core/bitstreams/6ec24d75-19bd-4f1f-b1c5-5becf50d0871/content",
+          "https://agdatacommons.nal.usda.gov/articles/dataset/A_Survey_to_Evaluate_the_Current_Status_of_Land_Grant_University_and_State_Department_of_Agriculture_Soil_Fertility_Recommendations_and_Analytical_Methods/24680958",
+          "https://openknowledge.fao.org/server/api/core/bitstreams/81533344-7e7c-473d-96d7-e18de59d6548/content"
+        ]
+      },
+      "population": {
+        "research_papers": [],
+        "surveys_and_reports": [
+          "https://www.census.gov/programs-surveys/cps.html",
+          "https://www.psacard.com/pop",
+          "https://www.census.gov/programs-surveys/cps/data.html",
+          "https://www.bls.gov/cps/",
+          "https://population.un.org/wpp/"
+        ]
+      }
+    },
+    "web_search": []
+  },
+  {
+    "zone": 10,
+    "zone_name": "Nelabonthu",
+    "location": {
+      "latitude": 18.68878682842893,
+      "longitude": 84.16406861453841
+    },
+    "land_cover": {
+      "bare": 0.1203420986575831,
+      "built": 0.110103019102618,
+      "crops": 0.1611319070503616,
+      "flooded_vegetation": 0.1182936480616042,
+      "grass": 0.4341260253587415,
+      "shrub_and_scrub": 0.5603499108369053,
+      "snow_and_ice": 0.1656053625413994,
+      "trees": 0.4657923822562133,
+      "water": 0.0110242895366156
+    },
+    "environmental_factors": {
+      "temperature": 0.6731196732560238,
+      "humidity": 0.5032935769199406,
+      "precipitation": 0.0,
+      "wind_speed": 0.4832484320930838,
+      "BCCMASS": 0.4404583598196048,
+      "CH4_column_volume_mixing_ratio_dry_air_bias_corrected": 0.8532743454956692,
+      "CO_column_number_density": 0.439183420419702,
+      "DUCMASS": 0.4312258464362228,
+      "NO2_column_number_density": 0.2829599380979867,
+      "O3_column_number_density": 0.5795523588578325,
+      "SO2_column_number_density": 0.4277854681515644,
+      "absorbing_aerosol_index": 0.345794196149768,
+      "tropospheric_HCHO_column_number_density": 0.3734172411353754
+    },
+    "risk_metrics": {
+      "Health_Risk_Index": 0.4467539043987747,
+      "Urban_Heat_Index": 2.211026808987198,
+      "Real_Estate_Risk": 0.2918362133149863,
+      "Green_Score": 0.4752039809031101,
+      "H(Hazard)": 0.3677444276253775,
+      "E(Exposure)": 0.148017675961919,
+      "V(Vulnerability)": 0.8528564490283556,
+      "CRI": 0.0464232583594106,
+      "Risk_Category": "Low"
+    },
+    "trends": [
+      {
+        "trend_description": "Hazard_Score",
+        "influencing_feature": "temperature",
+        "impact": 0.017,
+        "effect": "increases"
+      },
+      {
+        "trend_description": "Exposure_Score",
+        "influencing_feature": "built",
+        "impact": 0.072,
+        "effect": "increases"
+      },
+      {
+        "trend_description": "Vulnerability_Index",
+        "influencing_feature": "CO_column_number_density",
+        "impact": 0.234,
+        "effect": "increases"
+      },
+      {
+        "trend_description": "Health_Risk_Index",
+        "influencing_feature": "NO2_column_number_density",
+        "impact": 0.071,
+        "effect": "increases"
+      },
+      {
+        "trend_description": "Urban_Heat_Index",
+        "influencing_feature": "CO_column_number_density",
+        "impact": 0.611,
+        "effect": "increases"
+      },
+      {
+        "trend_description": "Real_Estate_Risk",
+        "influencing_feature": "NO2_column_number_density",
+        "impact": 0.106,
+        "effect": "increases"
+      },
+      {
+        "trend_description": "Green_Score",
+        "influencing_feature": "crops",
+        "impact": 0.054,
+        "effect": "decreases"
+      },
+      {
+        "trend_description": "Climate_Risk_Index",
+        "influencing_feature": "trees",
+        "impact": 0.058,
+        "effect": "decreases"
+      }
+    ],
+    "socioeconomic_status": {
+      "schools": 8,
+      "hospitals": 0,
+      "banks": 0,
+      "grocery_stores": 20
+    },
+    "industries_present": [
+      {
+        "name": "Chapara",
+        "address": "Chapara",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "name": "MADHUCON VIZAGBLUE",
+        "address": "J6F6+FW3, National Highway 5",
+        "types": [
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Axis Bank ATM",
+        "address": "Ground Floor, Meliaputti",
+        "types": [
+          "atm",
+          "finance",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Aadhar Enrolment Center Csc",
+        "address": "Meliaputti",
+        "types": [
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "SBI ATM",
+        "address": "Q5CM+JMG, Pattupuram - Bendigate Road, Chapara",
+        "types": [
+          "atm",
+          "finance",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "MeeSeva Center",
+        "address": "Pattupuram - Bendigate Road, Chapara",
+        "types": [
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "\u0c17\u0c4d\u0c30\u0c3e\u0c2e \u0c38\u0c1a\u0c3f\u0c35\u0c3e\u0c32\u0c2f\u0c02",
+        "address": "India",
+        "types": [
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Ammoru Talli",
+        "address": "M4MX+P2, Ampuram",
+        "types": [
+          "hindu_temple",
+          "place_of_worship",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Ampuram \u0c05\u0c02\u0c2a\u0c41\u0c30\u0c02",
+        "address": "M4MX+P2, Ampuram",
+        "types": [
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Govt Primary school",
+        "address": "M4MW+FC, Ampuram",
+        "types": [
+          "primary_school",
+          "school",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "\u0c17\u0c4d\u0c30\u0c3e\u0c2e \u0c38\u0c1a\u0c3f\u0c35\u0c3e\u0c32\u0c2f\u0c02",
+        "address": "India",
+        "types": [
+          "dentist",
+          "health",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Godda MPUP SCHOOL",
+        "address": "P566+C24, Anjaneyapuram",
+        "types": [
+          "primary_school",
+          "school",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Ramalayam godda",
+        "address": "Major District Road 34, Anjaneyapuram",
+        "types": [
+          "hindu_temple",
+          "place_of_worship",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "MPP school, guda, meliaputti mandal",
+        "address": "P5HR+8MH, Deenabandhupuram, Meliaputti",
+        "types": [
+          "primary_school",
+          "school",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Ramesh",
+        "address": "P52P+WRJ Guda village(guda pedda raitu, vooru, Chandragiri",
+        "types": [
+          "park",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Guda village(guda pedda raitu vooru)",
+        "address": "P52P+WRJ, Chandragiri",
+        "types": [
+          "park",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Sri Sri Sri neelamma thalli temple",
+        "address": "P586+82F, Chinnasunnapuram",
+        "types": [
+          "hindu_temple",
+          "place_of_worship",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Chinnasunnapuram village",
+        "address": "P596+WM, meliaputti, Chinnasunnapuram",
+        "types": [
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Mr. Vunulkuru Krishna murty.",
+        "address": "Q52J+CFMMarripadu C",
+        "types": [
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Meliaputti",
+        "address": "Meliaputti",
+        "types": [
+          "locality",
+          "political"
+        ]
+      }
+    ],
+    "research_findings": {
+      "water management": {
+        "research_papers": [],
+        "surveys_and_reports": [
+          "https://www.nass.usda.gov/Surveys/Guide_to_NASS_Surveys/Farm_and_Ranch_Irrigation/index.php",
+          "https://water.ca.gov/",
+          "https://www.nass.usda.gov/Publications/AgCensus/2017/Online_Resources/Farm_and_Ranch_Irrigation_Survey/index.php",
+          "https://wmo.int/publication-series/state-of-global-water-resources-2023",
+          "https://www.nass.usda.gov/Publications/AgCensus/2022/Online_Resources/Farm_and_Ranch_Irrigation_Survey/index.php"
+        ]
+      },
+      "soil status": {
+        "research_papers": [],
+        "surveys_and_reports": [
+          "https://websoilsurvey.nrcs.usda.gov/",
+          "https://www.ncagr.gov/divisions/agronomic-services/find-your-report",
+          "https://openknowledge.fao.org/server/api/core/bitstreams/6ec24d75-19bd-4f1f-b1c5-5becf50d0871/content",
+          "https://agdatacommons.nal.usda.gov/articles/dataset/A_Survey_to_Evaluate_the_Current_Status_of_Land_Grant_University_and_State_Department_of_Agriculture_Soil_Fertility_Recommendations_and_Analytical_Methods/24680958",
+          "https://openknowledge.fao.org/server/api/core/bitstreams/81533344-7e7c-473d-96d7-e18de59d6548/content"
+        ]
+      },
+      "population": {
+        "research_papers": [],
+        "surveys_and_reports": [
+          "https://www.census.gov/programs-surveys/cps.html",
+          "https://www.psacard.com/pop",
+          "https://www.census.gov/programs-surveys/cps/data.html",
+          "https://www.bls.gov/cps/",
+          "https://population.un.org/wpp/"
+        ]
+      }
+    },
+    "web_search": []
+  },
+  {
+    "zone": 11,
+    "zone_name": "Baguvalasa",
+    "location": {
+      "latitude": 18.34564708005108,
+      "longitude": 83.53055059830574
+    },
+    "land_cover": {
+      "bare": 0.0828174430219259,
+      "built": 0.2061305624438936,
+      "crops": 0.417339414958067,
+      "flooded_vegetation": 0.1457976259873676,
+      "grass": 0.2744569814834764,
+      "shrub_and_scrub": 0.3789787181492912,
+      "snow_and_ice": 0.1996841412559564,
+      "trees": 0.4952982644410075,
+      "water": 0.0127759664037466
+    },
+    "environmental_factors": {
+      "temperature": 0.7569505582116528,
+      "humidity": 0.8049740361672381,
+      "precipitation": 0.0,
+      "wind_speed": 0.1796407062081575,
+      "BCCMASS": 0.3864184667927972,
+      "CH4_column_volume_mixing_ratio_dry_air_bias_corrected": 0.6877574117184994,
+      "CO_column_number_density": 0.5191543355673494,
+      "DUCMASS": 0.2073953375720592,
+      "NO2_column_number_density": 0.8410911318799406,
+      "O3_column_number_density": 0.1048870598705608,
+      "SO2_column_number_density": 0.3650185646482702,
+      "absorbing_aerosol_index": 0.3355394836684976,
+      "tropospheric_HCHO_column_number_density": 0.5415228199473582
+    },
+    "risk_metrics": {
+      "Health_Risk_Index": 0.617047452857007,
+      "Urban_Heat_Index": 3.6050523562756207,
+      "Real_Estate_Risk": 0.5712772478232301,
+      "Green_Score": 0.4057819702954049,
+      "H(Hazard)": 0.3301212054388269,
+      "E(Exposure)": 0.2332910196580314,
+      "V(Vulnerability)": 1.4020119405605944,
+      "CRI": 0.107974985897909,
+      "Risk_Category": "High"
+    },
+    "trends": [
+      {
+        "trend_description": "Hazard_Score",
+        "influencing_feature": "temperature",
+        "impact": 0.011,
+        "effect": "increases"
+      },
+      {
+        "trend_description": "Exposure_Score",
+        "influencing_feature": "built",
+        "impact": 0.044,
+        "effect": "increases"
+      },
+      {
+        "trend_description": "Vulnerability_Index",
+        "influencing_feature": "built",
+        "impact": 0.128,
+        "effect": "increases"
+      },
+      {
+        "trend_description": "Health_Risk_Index",
+        "influencing_feature": "NO2_column_number_density",
+        "impact": 0.054,
+        "effect": "increases"
+      },
+      {
+        "trend_description": "Urban_Heat_Index",
+        "influencing_feature": "built",
+        "impact": 0.377,
+        "effect": "increases"
+      },
+      {
+        "trend_description": "Real_Estate_Risk",
+        "influencing_feature": "O3_column_number_density",
+        "impact": 0.075,
+        "effect": "decreases"
+      },
+      {
+        "trend_description": "Green_Score",
+        "influencing_feature": "water",
+        "impact": 0.097,
+        "effect": "decreases"
+      },
+      {
+        "trend_description": "Climate_Risk_Index",
+        "influencing_feature": "built",
+        "impact": 0.037,
+        "effect": "increases"
+      }
+    ],
+    "socioeconomic_status": {
+      "schools": 20,
+      "hospitals": 1,
+      "banks": 1,
+      "grocery_stores": 20
+    },
+    "industries_present": [
+      {
+        "name": "Garividi",
+        "address": "Garividi",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "name": "Police Station",
+        "address": "7GRX+273, VZM - Garividi Road, Garividi - Cheepurupalli Road",
+        "types": [
+          "police",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Avanthi's St Theressa Institute of Engineering and Technology",
+        "address": "7GRM+FJR, Garividi",
+        "types": [
+          "university",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Church Of Christ",
+        "address": "8GQ8+3RW, Neeladripuram at Surammapeta",
+        "types": [
+          "church",
+          "place_of_worship",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "BC Hostel",
+        "address": "8H59+PW5, Vijaya Colony Road 2, Lecturers Colony, Cheepurupalli",
+        "types": [
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Apollo Pharmacy Cheepurapalli",
+        "address": "near KVN Silks, No. 172/2, Main Rd, Chieerupalle, Cheepurupalli",
+        "types": [
+          "pharmacy",
+          "drugstore",
+          "health",
+          "point_of_interest",
+          "food",
+          "store",
+          "establishment"
+        ]
+      },
+      {
+        "name": "church",
+        "address": "8H57+7XQ, Bro.k.Luke garu,M.SOLOMON RAJU GARU (preacher, Ramanjaneya Colony, Cheepurupalli",
+        "types": [
+          "church",
+          "place_of_worship",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "The Professional Couriers",
+        "address": "opp. Apollo Pharmacy upstair of Sairam Diagnostic Centre, Beside State Bank of India, opp. Apollo Pharmacy upstair of Sairam Diagnostic Centre, old Bus stand Road, Bobbili",
+        "types": [
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Sri Datta Sai Mandiram",
+        "address": "Kaspa Road, Chieerupalle, Cheepurupalli",
+        "types": [
+          "hindu_temple",
+          "place_of_worship",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "MeeSeva Center",
+        "address": "8H69+2F7, Lecturers Colony, Cheepurupalli",
+        "types": [
+          "local_government_office",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "RM CINEMAS VAMSI VISHNU VAIBHAV THEATRES",
+        "address": "RM CINEMAS, MAIN ROAD, Cheepurupalli",
+        "types": [
+          "movie_theater",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Meenakshi hospital & Dental Care",
+        "address": "8H58+7M5, Lecturers Colony, Cheepurupalli",
+        "types": [
+          "hospital",
+          "health",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Muthoot Finance Branch Cheepurupalli",
+        "address": "8H58+7P2, VZM - Garividi Road, Lecturers Colony, Cheepurupalli",
+        "types": [
+          "finance",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "SBI ATM",
+        "address": "Vizianagaram, SH-36, Vijayanagaram Rajam Road, Cheepuru Palli, Cheepurupalli",
+        "types": [
+          "atm",
+          "finance",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Maruthi Seat Covers",
+        "address": "Ramanjaneya Colony, Cheepurupalli",
+        "types": [
+          "store",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Ravindra Bharathi Schools",
+        "address": "Opp: Anjaneya Temple, Anjaneya puram, CHIPURUPALLI, Vizianagaram",
+        "types": [
+          "school",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "S.V.N.K.AGENCIES",
+        "address": "Road, Laveru",
+        "types": [
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "MRF EXCLUSIVE TYRES",
+        "address": "VZM - Garividi Road, Anjaneya Puram Colony, Cheepurupalli",
+        "types": [
+          "car_repair",
+          "point_of_interest",
+          "store",
+          "establishment"
+        ]
+      },
+      {
+        "name": "R.E.C.S office",
+        "address": "8H39+5Q6, Ramalingapuram, Cheepurupalli",
+        "types": [
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Cheepurupalli",
+        "address": "Cheepurupalli",
+        "types": [
+          "locality",
+          "political"
+        ]
+      }
+    ],
+    "research_findings": {
+      "water management": {
+        "research_papers": [],
+        "surveys_and_reports": [
+          "https://www.nass.usda.gov/Surveys/Guide_to_NASS_Surveys/Farm_and_Ranch_Irrigation/index.php",
+          "https://wmo.int/publication-series/state-of-global-water-resources-2023",
+          "https://www.nass.usda.gov/Publications/AgCensus/2017/Online_Resources/Farm_and_Ranch_Irrigation_Survey/index.php",
+          "https://www.sfwmd.gov/our-work/water-supply",
+          "https://www.nass.usda.gov/Publications/AgCensus/2022/Online_Resources/Farm_and_Ranch_Irrigation_Survey/index.php"
+        ]
+      },
+      "soil status": {
+        "research_papers": [],
+        "surveys_and_reports": [
+          "https://websoilsurvey.nrcs.usda.gov/",
+          "https://www.ncagr.gov/divisions/agronomic-services/find-your-report",
+          "https://openknowledge.fao.org/server/api/core/bitstreams/6ec24d75-19bd-4f1f-b1c5-5becf50d0871/content",
+          "https://agdatacommons.nal.usda.gov/articles/dataset/A_Survey_to_Evaluate_the_Current_Status_of_Land_Grant_University_and_State_Department_of_Agriculture_Soil_Fertility_Recommendations_and_Analytical_Methods/24680958",
+          "https://openknowledge.fao.org/server/api/core/bitstreams/81533344-7e7c-473d-96d7-e18de59d6548/content"
+        ]
+      },
+      "population": {
+        "research_papers": [],
+        "surveys_and_reports": [
+          "https://www.census.gov/programs-surveys/cps.html",
+          "https://www.psacard.com/pop",
+          "https://www.census.gov/programs-surveys/cps/data.html",
+          "https://www.bls.gov/cps/",
+          "https://population.un.org/wpp/"
+        ]
+      }
+    },
+    "web_search": []
+  },
+  {
+    "zone": 12,
+    "zone_name": "Peddavenkatapuram",
+    "location": {
+      "latitude": 18.494651530167253,
+      "longitude": 83.91805673357638
+    },
+    "land_cover": {
+      "bare": 0.1590502270651976,
+      "built": 0.1504087754651112,
+      "crops": 0.3118627829676521,
+      "flooded_vegetation": 0.2247607574789582,
+      "grass": 0.4905187064585858,
+      "shrub_and_scrub": 0.532263250184554,
+      "snow_and_ice": 0.2677467044651846,
+      "trees": 0.4270536827666038,
+      "water": 0.0186552630482585
+    },
+    "environmental_factors": {
+      "temperature": 0.752214540347846,
+      "humidity": 0.6788323251934374,
+      "precipitation": 0.0,
+      "wind_speed": 0.6153846189115173,
+      "BCCMASS": 0.4274322783364976,
+      "CH4_column_volume_mixing_ratio_dry_air_bias_corrected": 0.766003789325024,
+      "CO_column_number_density": 0.7103657030427292,
+      "DUCMASS": 0.3349959009723604,
+      "NO2_column_number_density": 0.3810773079361936,
+      "O3_column_number_density": 0.4263109402106859,
+      "SO2_column_number_density": 0.2943966573031732,
+      "absorbing_aerosol_index": 0.5538626682494651,
+      "tropospheric_HCHO_column_number_density": 0.2060833061076237
+    },
+    "risk_metrics": {
+      "Health_Risk_Index": 0.4493369450553807,
+      "Urban_Heat_Index": 2.407190468570327,
+      "Real_Estate_Risk": 0.308939406252071,
+      "Green_Score": 0.4671351033577884,
+      "H(Hazard)": 0.4595138195365503,
+      "E(Exposure)": 0.1989170067741006,
+      "V(Vulnerability)": 0.9169662895078856,
+      "CRI": 0.0838154078172409,
+      "Risk_Category": "Moderate"
+    },
+    "trends": [],
+    "socioeconomic_status": {
+      "schools": 20,
+      "hospitals": 9,
+      "banks": 2,
+      "grocery_stores": 20
+    },
+    "industries_present": [
+      {
+        "name": "Amadalavalasa",
+        "address": "Amadalavalasa",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "name": "Sai Ganesh Medical & General Store",
+        "address": "Sarubujilli Main road Opp. RTC BUS STAND, Sarubujjili",
+        "types": [
+          "drugstore",
+          "hospital",
+          "store",
+          "health",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "P.M. S.H.R.I. Jawahar Navodaya Vidyalaya, Vennelavalasa, Srikakulam",
+        "address": "GVPW+PJ8",
+        "types": [
+          "school",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "\u0c30\u0c3e\u0c2e\u0c26\u0c3e\u0c38\u0c41\u0c2a\u0c47\u0c1f",
+        "address": "RAMADASUPETA, MAIN STREET, Road, Ramadasupeta",
+        "types": [
+          "school",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "State Bank of India \u0c2d\u0c3e\u0c30\u0c24\u0c40\u0c2f \u0c38\u0c4d\u0c1f\u0c47\u0c1f\u0c4d \u0c2c\u0c4d\u0c2f\u0c3e\u0c02\u0c15\u0c4d",
+        "address": "GX2H+C7G, Syrigam",
+        "types": [
+          "bank",
+          "finance",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Chevitamma thalli Temple",
+        "address": "CWPF+MH9, Unnamed Road, RAMACHANDRAPURAM, Chittivalasa",
+        "types": [
+          "hindu_temple",
+          "place_of_worship",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Laxmi Meeseva",
+        "address": "CVP9+RWW, Akkulapeta",
+        "types": [
+          "shopping_mall",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Sri Sadhguru Arts \ufe0f Suravaram",
+        "address": "GXVH+23W, Kummamri street , suravaram village , komanapalli post Jalumuru, mandal",
+        "types": [
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "LIC of India, Satellite Office",
+        "address": "Dr.No.5-3-10/5 Kota Krishna Murthy Bldg Main Road, Near Krishnapuram Nr. Govt. Junior College, Amadalavalasa",
+        "types": [
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "HP Manikanta Filling Station",
+        "address": "Kollivalasa",
+        "types": [
+          "gas_station",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "..vikash Garden",
+        "address": "CXGC+X6W, Kottapolavalasa",
+        "types": [
+          "park",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Seepana Chandrayya Peta",
+        "address": "CW63+25V, Amadalavalasa",
+        "types": [
+          "local_government_office",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Govt. Degree College, Amudalavalasa",
+        "address": "near MRO OFFICE, PATHINAVARI PETA, near MRO OFFICE, Amadalavalasa",
+        "types": [
+          "university",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Office Of The Sub Registrar, Amadalavalasa",
+        "address": "CV6X+QPR, Amadalavalasa",
+        "types": [
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Apollo Pharmacy Amudalavalasa",
+        "address": "Ground Floor, opp. Sri Rama Mandiram, No. 9-2-32/2, Amadalavalasa - Kalingapatnam Road, Srikakulam",
+        "types": [
+          "pharmacy",
+          "drugstore",
+          "store",
+          "health",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Head Post Office",
+        "address": "CV6X+8MC, Post office Site",
+        "types": [
+          "post_office",
+          "finance",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Feed Mixing Plant",
+        "address": "CW63+25V, Amadalavalasa",
+        "types": [
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "SRI VENKATESWARA SWEETS AND BAKERY",
+        "address": "Railway Station Road, Amadalavalasa",
+        "types": [
+          "store",
+          "food",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Railway Mail Service",
+        "address": "CW53+PRJ, Railway Station Road, Amadalavalasa",
+        "types": [
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Chinnajonnavalasa",
+        "address": "Chinnajonnavalasa",
+        "types": [
+          "locality",
+          "political"
+        ]
+      }
+    ],
+    "research_findings": {
+      "water management": {
+        "research_papers": [],
+        "surveys_and_reports": [
+          "https://www.nass.usda.gov/Surveys/Guide_to_NASS_Surveys/Farm_and_Ranch_Irrigation/index.php",
+          "https://water.ca.gov/",
+          "https://www.nass.usda.gov/Publications/AgCensus/2017/Online_Resources/Farm_and_Ranch_Irrigation_Survey/index.php",
+          "https://wmo.int/publication-series/state-of-global-water-resources-2023",
+          "https://www.nass.usda.gov/Publications/AgCensus/2022/Online_Resources/Farm_and_Ranch_Irrigation_Survey/index.php"
+        ]
+      },
+      "soil status": {
+        "research_papers": [],
+        "surveys_and_reports": [
+          "https://websoilsurvey.nrcs.usda.gov/",
+          "https://www.ncagr.gov/divisions/agronomic-services/find-your-report",
+          "https://openknowledge.fao.org/server/api/core/bitstreams/6ec24d75-19bd-4f1f-b1c5-5becf50d0871/content",
+          "https://agdatacommons.nal.usda.gov/articles/dataset/A_Survey_to_Evaluate_the_Current_Status_of_Land_Grant_University_and_State_Department_of_Agriculture_Soil_Fertility_Recommendations_and_Analytical_Methods/24680958",
+          "https://openknowledge.fao.org/server/api/core/bitstreams/81533344-7e7c-473d-96d7-e18de59d6548/content"
+        ]
+      },
+      "population": {
+        "research_papers": [],
+        "surveys_and_reports": [
+          "https://www.census.gov/programs-surveys/cps.html",
+          "https://www.psacard.com/pop",
+          "https://www.census.gov/programs-surveys/cps/data.html",
+          "https://www.bls.gov/cps/",
+          "https://population.un.org/wpp/"
+        ]
+      }
+    },
+    "web_search": []
+  },
+  {
+    "zone": 13,
+    "zone_name": "Kotabommali",
+    "location": {
+      "latitude": 18.52330054235725,
+      "longitude": 84.16847413584638
+    },
+    "land_cover": {
+      "bare": 0.1570585788448755,
+      "built": 0.2263186627454029,
+      "crops": 0.525961998200698,
+      "flooded_vegetation": 0.3315965227949459,
+      "grass": 0.3597666648511419,
+      "shrub_and_scrub": 0.4216898037894482,
+      "snow_and_ice": 0.2490802967940416,
+      "trees": 0.2081483932834794,
+      "water": 0.0882069325464832
+    },
+    "environmental_factors": {
+      "temperature": 0.7197643224946891,
+      "humidity": 0.52895380503132,
+      "precipitation": 0.0,
+      "wind_speed": 0.5025640802270562,
+      "BCCMASS": 0.5172526283495547,
+      "CH4_column_volume_mixing_ratio_dry_air_bias_corrected": 0.6521657350898538,
+      "CO_column_number_density": 0.6635708689777601,
+      "DUCMASS": 0.4607927548332125,
+      "NO2_column_number_density": 0.134056747338383,
+      "O3_column_number_density": 0.581708521203767,
+      "SO2_column_number_density": 0.3500966071478776,
+      "absorbing_aerosol_index": 0.1762420750935469,
+      "tropospheric_HCHO_column_number_density": 0.2344732704905939
+    },
+    "risk_metrics": {
+      "Health_Risk_Index": 0.3067090356070419,
+      "Urban_Heat_Index": 2.1919787161294804,
+      "Real_Estate_Risk": 0.2173210883626354,
+      "Green_Score": 0.2963421568549719,
+      "H(Hazard)": 0.3516905278125274,
+      "E(Exposure)": 0.2567671130902721,
+      "V(Vulnerability)": 0.7941072310686907,
+      "CRI": 0.0717099170931057,
+      "Risk_Category": "Moderate"
+    },
+    "trends": [],
+    "socioeconomic_status": {
+      "schools": 20,
+      "hospitals": 20,
+      "banks": 9,
+      "grocery_stores": 20
+    },
+    "industries_present": [
+      {
+        "name": "Tekkali",
+        "address": "Tekkali",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "name": "Kotabommali Police Station",
+        "address": "G48W+V88, Kotabommali",
+        "types": [
+          "police",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "APGVBank",
+        "address": "G592+932, Kotabommali",
+        "types": [
+          "bank",
+          "finance",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "SV E-SEVA",
+        "address": "G6P5+687, Santhabommali",
+        "types": [
+          "local_government_office",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "SBI ATM \u0c2d\u0c3e\u0c30\u0c24\u0c40\u0c2f \u0c38\u0c4d\u0c1f\u0c47\u0c1f\u0c4d \u0c2c\u0c4d\u0c2f\u0c3e\u0c02\u0c15\u0c4d \u0c0e\u0c1f\u0c3f\u0c2f\u0c02",
+        "address": "G595+VP7, Kotabommali Main Road, Kotabommali",
+        "types": [
+          "atm",
+          "finance",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Vamsadhara Teacher Training College",
+        "address": "G594+2FH, Village, Kotabommali",
+        "types": [
+          "university",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Indian Bank",
+        "address": "G593+MPF, Kotabommali",
+        "types": [
+          "bank",
+          "finance",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "State Bank of India KOTABOMMALI",
+        "address": "MAIN ROAD, KOTABOMMALI, DIST:, Srikakulam",
+        "types": [
+          "bank",
+          "atm",
+          "finance",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Allu Communications",
+        "address": "near SBI, Main Road, Kotabommali",
+        "types": [
+          "point_of_interest",
+          "store",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Post Office",
+        "address": "G6P5+P58, Santhabommali",
+        "types": [
+          "post_office",
+          "finance",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Post Office",
+        "address": "H58W+JGC, Konusulakotturu",
+        "types": [
+          "post_office",
+          "finance",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "MeeSeva Center",
+        "address": "Borubhadra village,santhabommali mandalam,srikakulam dist, Main road, Megavaram Road, Borubhadra",
+        "types": [
+          "local_government_office",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "AMMA NANNA CHARITABLE TRUST",
+        "address": "F556+XWG, Regupadu, Harichandrapuram, Polaki, Srikakulam, Andhra Pradesh, Narasannapeta",
+        "types": [
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "MeeSeva Center",
+        "address": "Srinivasarao Doki, Main street, Vinjampadu Road, Harichandrapuram",
+        "types": [
+          "local_government_office",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Dandu Gopalpuram Post Office",
+        "address": "G6XP+VM5, Bhavanapadu, Dandugopala Puram",
+        "types": [
+          "post_office",
+          "finance",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Aditya Institute of Technology and Management",
+        "address": "Tekkali",
+        "types": [
+          "university",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "\u0c36\u0c4d\u0c30\u0c40 \u0c35\u0c47\u0c02\u0c15\u0c1f\u0c32\u0c15\u0c4d\u0c37\u0c4d\u0c2e\u0c3f \u0c28\u0c3e\u0c30\u0c3e\u0c2f\u0c23 \u0c2e\u0c3f\u0c28\u0c40 \u0c30\u0c48\u0c38\u0c4d \u0c2e\u0c3f\u0c32\u0c4d\u0c32\u0c41",
+        "address": "India",
+        "types": [
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "SRI KOTTAMMATHALLI WEIGHBRIDGE",
+        "address": "G5C8+8Q2, Kotabommali",
+        "types": [
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Sri Laxmi Modern Rice & G. N. Oil Mill",
+        "address": "Kotabommali",
+        "types": [
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Kotabommali",
+        "address": "Kotabommali",
+        "types": [
+          "locality",
+          "political"
+        ]
+      }
+    ],
+    "research_findings": {
+      "water management": {
+        "research_papers": [],
+        "surveys_and_reports": [
+          "https://www.nass.usda.gov/Surveys/Guide_to_NASS_Surveys/Farm_and_Ranch_Irrigation/index.php",
+          "https://wmo.int/publication-series/state-of-global-water-resources-2023",
+          "https://www.nass.usda.gov/Publications/AgCensus/2022/Online_Resources/Farm_and_Ranch_Irrigation_Survey/index.php",
+          "https://www.sfwmd.gov/our-work/water-supply",
+          "https://www.usgs.gov/mission-areas/water-resources"
+        ]
+      },
+      "soil status": {
+        "research_papers": [],
+        "surveys_and_reports": [
+          "https://websoilsurvey.nrcs.usda.gov/",
+          "https://www.ncagr.gov/divisions/agronomic-services/find-your-report",
+          "https://openknowledge.fao.org/server/api/core/bitstreams/6ec24d75-19bd-4f1f-b1c5-5becf50d0871/content",
+          "https://agdatacommons.nal.usda.gov/articles/dataset/A_Survey_to_Evaluate_the_Current_Status_of_Land_Grant_University_and_State_Department_of_Agriculture_Soil_Fertility_Recommendations_and_Analytical_Methods/24680958",
+          "https://openknowledge.fao.org/server/api/core/bitstreams/81533344-7e7c-473d-96d7-e18de59d6548/content"
+        ]
+      },
+      "population": {
+        "research_papers": [],
+        "surveys_and_reports": [
+          "https://www.census.gov/programs-surveys/cps.html",
+          "https://www.psacard.com/pop",
+          "https://www.census.gov/programs-surveys/cps/data.html",
+          "https://www.bls.gov/cps/",
+          "https://population.un.org/wpp/"
+        ]
+      }
+    },
+    "web_search": []
+  },
+  {
+    "zone": 14,
+    "zone_name": "Sirikonda",
+    "location": {
+      "latitude": 18.63326919487192,
+      "longitude": 83.79324085577313
+    },
+    "land_cover": {
+      "bare": 0.1161849160556423,
+      "built": 0.0859804983655502,
+      "crops": 0.0656187215615476,
+      "flooded_vegetation": 0.1220756744248672,
+      "grass": 0.5613258827518154,
+      "shrub_and_scrub": 0.3059935381694419,
+      "snow_and_ice": 0.1861950439468451,
+      "trees": 0.7357143919451756,
+      "water": 0.0067608872979414
+    },
+    "environmental_factors": {
+      "temperature": 0.6785488181371457,
+      "humidity": 0.6787671917040367,
+      "precipitation": 0.0,
+      "wind_speed": 0.6124172591808091,
+      "BCCMASS": 0.0,
+      "CH4_column_volume_mixing_ratio_dry_air_bias_corrected": 0.6453574460169975,
+      "CO_column_number_density": 0.3804609661898368,
+      "DUCMASS": 0.0,
+      "NO2_column_number_density": 0.2952903757214938,
+      "O3_column_number_density": 0.396406485633348,
+      "SO2_column_number_density": 0.3622001302431459,
+      "absorbing_aerosol_index": 0.399627831040495,
+      "tropospheric_HCHO_column_number_density": 0.3250361899406193
+    },
+    "risk_metrics": {
+      "Health_Risk_Index": 0.3958104616689903,
+      "Urban_Heat_Index": 2.070371260041503,
+      "Real_Estate_Risk": 0.2735013266068007,
+      "Green_Score": 0.5974536684320209,
+      "H(Hazard)": 0.4059736634854045,
+      "E(Exposure)": 0.1450004547939697,
+      "V(Vulnerability)": 0.7743904611582052,
+      "CRI": 0.0455855521893575,
+      "Risk_Category": "Low"
+    },
+    "trends": [],
+    "socioeconomic_status": {
+      "schools": 17,
+      "hospitals": 6,
+      "banks": 1,
+      "grocery_stores": 20
+    },
+    "industries_present": [
+      {
+        "name": "Palakonda",
+        "address": "Palakonda",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "name": "SBI ATM With E-CORNER",
+        "address": "HQX6+3PX, Palkonda Road, Vadama",
+        "types": [
+          "atm",
+          "finance",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "India Post, Palakonda",
+        "address": "JQ34+354, Komatipeta, Palakonda",
+        "types": [
+          "post_office",
+          "finance",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Regional Transport Office(RTO), Palakonda",
+        "address": "14/1354, Seethampeta Road, Palakonda",
+        "types": [
+          "local_government_office",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Ravindra Bharathi Schools",
+        "address": "Govt.Hospital Road, Neelamma Colony 1st Lane, Vadama",
+        "types": [
+          "school",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "CANARA BANK - PALAKONDA",
+        "address": "opp. PALAVALASA RAJASEKHARA HOUSE MURALI, MAIN ROAD, Mohan Nagar, Vadama",
+        "types": [
+          "bank",
+          "finance",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Meeseva Centre",
+        "address": "HQW7+W69, Palkonda Road, Vadama",
+        "types": [
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "APGVB Palakonda",
+        "address": "HQW7+X55, Vadama",
+        "types": [
+          "bank",
+          "finance",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "SRI TECHNOLOGIES (AADHAR, PAN, Mee Seva)",
+        "address": "HQX6+CH3, Vadama",
+        "types": [
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "State Bank of Hyderabad",
+        "address": "Palkonda Road, Vadama",
+        "types": [
+          "bank",
+          "finance",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Apollo Pharmacy Palakonda 2",
+        "address": "opp. Govt Junior College, No. 8/3/374, Kothuru Rd, Palakonda",
+        "types": [
+          "pharmacy",
+          "drugstore",
+          "store",
+          "health",
+          "food",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "SAGAR JEWELLERS",
+        "address": "opp. tirumala appliances Jewellery market, Post Office Road, Palakonda",
+        "types": [
+          "jewelry_store",
+          "store",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "SriSriSri Seetharama Swamy Vaari Devalayam",
+        "address": "JQ34+744, Palakonda",
+        "types": [
+          "hindu_temple",
+          "place_of_worship",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "airtel showroom",
+        "address": "NEAR, RTC Complex Road, Palakonda",
+        "types": [
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Union Bank of India",
+        "address": "Palkonda Road, Palakonda",
+        "types": [
+          "bank",
+          "atm",
+          "finance",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "MeeSeva Center",
+        "address": "JQ24+W7R, Post Office Road, Komatipeta, Palakonda",
+        "types": [
+          "local_government_office",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "LIC of India, Satellite Office",
+        "address": "H.No.14-16, Main Road, Adj. to Andhra Bank Palakonda Dist, Palakonda",
+        "types": [
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Office Of The Sub-Registrar, Palakonda",
+        "address": "JQ23+VWH, Palakonda",
+        "types": [
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "SBI Atm \u0c2d\u0c3e\u0c30\u0c24\u0c40\u0c2f \u0c38\u0c4d\u0c1f\u0c47\u0c1f\u0c4d \u0c2c\u0c4d\u0c2f\u0c3e\u0c02\u0c15\u0c4d \u0c0e\u0c1f\u0c3f\u0c2f\u0c02",
+        "address": "JQ23+HXW, main road, Palakonda",
+        "types": [
+          "atm",
+          "finance",
+          "point_of_interest",
+          "establishment"
+        ]
+      },
+      {
+        "name": "Vadama",
+        "address": "Vadama",
+        "types": [
+          "locality",
+          "political"
+        ]
+      }
+    ],
+    "research_findings": {
+      "water management": {
+        "research_papers": [],
+        "surveys_and_reports": [
+          "https://www.nass.usda.gov/Surveys/Guide_to_NASS_Surveys/Farm_and_Ranch_Irrigation/index.php",
+          "https://wmo.int/publication-series/state-of-global-water-resources-2023",
+          "https://www.nass.usda.gov/Publications/AgCensus/2022/Online_Resources/Farm_and_Ranch_Irrigation_Survey/index.php",
+          "https://www.sfwmd.gov/our-work/water-supply",
+          "https://www.usgs.gov/mission-areas/water-resources"
+        ]
+      },
+      "soil status": {
+        "research_papers": [],
+        "surveys_and_reports": [
+          "https://websoilsurvey.nrcs.usda.gov/",
+          "https://www.ncagr.gov/divisions/agronomic-services/find-your-report",
+          "https://openknowledge.fao.org/server/api/core/bitstreams/6ec24d75-19bd-4f1f-b1c5-5becf50d0871/content",
+          "https://agdatacommons.nal.usda.gov/articles/dataset/A_Survey_to_Evaluate_the_Current_Status_of_Land_Grant_University_and_State_Department_of_Agriculture_Soil_Fertility_Recommendations_and_Analytical_Methods/24680958",
+          "https://openknowledge.fao.org/server/api/core/bitstreams/81533344-7e7c-473d-96d7-e18de59d6548/content"
+        ]
+      },
+      "population": {
+        "research_papers": [],
+        "surveys_and_reports": [
+          "https://www.census.gov/programs-surveys/cps.html",
+          "https://www.psacard.com/pop",
+          "https://www.census.gov/programs-surveys/cps/data.html",
+          "https://www.bls.gov/cps/",
+          "https://population.un.org/wpp/"
+        ]
+      }
+    },
+    "web_search": []
+  }
+]
