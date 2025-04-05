@@ -1,0 +1,9 @@
+name: GreenScoreProject
+description: A brief description of your project.
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+environment:
+  sdk: '^3.7.0'
